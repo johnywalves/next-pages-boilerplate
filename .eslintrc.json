@@ -27,6 +27,7 @@
     "plugins": [
         "react",
         "react-hooks",
+        "import",
         "import-helpers",
         "@typescript-eslint"
     ],
@@ -58,6 +59,5 @@
                 }
             }
         ]
-
     }
 }
