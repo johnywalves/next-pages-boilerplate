@@ -1882,18 +1882,18 @@
     util-deprecate "^1.0.2"
     uuid "^8.0.0"
 
-"@storybook/addon-knobs@6.0.4":
-  version "6.0.4"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-knobs/-/addon-knobs-6.0.4.tgz#8b85cc3c2f101168f1028a39177acc1ccf3f2485"
-  integrity sha512-kcbRsQmuSdWk9sKX3KMpnc7jXWNqX7vBw7ArRcU/sKPDEE5c2zlIoOyUXORv8muJbDAX6Ql/83+aCrbZJ7uL9A==
+"@storybook/addon-knobs@6.0.6":
+  version "6.0.6"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-knobs/-/addon-knobs-6.0.6.tgz#3c1e180e3efdae80aebd77de816be44bfca40380"
+  integrity sha512-8jk/FRFWyeFrBsDw6URuInKS5TyHagEStjxlHeEG6QqN50Q60LPGoIigt/axhdSsw3HewnoNGM9ZCUkODm/vAA==
   dependencies:
-    "@storybook/addons" "6.0.4"
-    "@storybook/api" "6.0.4"
-    "@storybook/channels" "6.0.4"
-    "@storybook/client-api" "6.0.4"
-    "@storybook/components" "6.0.4"
-    "@storybook/core-events" "6.0.4"
-    "@storybook/theming" "6.0.4"
+    "@storybook/addons" "6.0.6"
+    "@storybook/api" "6.0.6"
+    "@storybook/channels" "6.0.6"
+    "@storybook/client-api" "6.0.6"
+    "@storybook/components" "6.0.6"
+    "@storybook/core-events" "6.0.6"
+    "@storybook/theming" "6.0.6"
     copy-to-clipboard "^3.0.8"
     core-js "^3.0.1"
     escape-html "^1.0.3"
@@ -2384,6 +2384,24 @@
   version "6.0.6"
   resolved "https://registry.yarnpkg.com/@storybook/theming/-/theming-6.0.6.tgz#7c3d9d3bea3a938e0b35be98450d9733909c263d"
   integrity sha512-RJBol0ggYw1cCmUBVyzQMQ8qe3f4CrBSqEQdcDBWYtHoknz00V9tn1zZuYC0L1OSnn36nbUgq7oj2NE3hwhkxA==
+  dependencies:
+    "@emotion/core" "^10.0.20"
+    "@emotion/is-prop-valid" "^0.8.6"
+    "@emotion/styled" "^10.0.17"
+    "@storybook/client-logger" "6.0.6"
+    core-js "^3.0.1"
+    deep-object-diff "^1.1.0"
+    emotion-theming "^10.0.19"
+    global "^4.3.2"
+    memoizerific "^1.11.3"
+    polished "^3.4.4"
+    resolve-from "^5.0.0"
+    ts-dedent "^1.1.1"
+
+"@storybook/ui@6.0.4":
+  version "6.0.4"
+  resolved "https://registry.yarnpkg.com/@storybook/ui/-/ui-6.0.4.tgz#8346487af2c814e32178deeaf378d6c45463bf53"
+  integrity sha512-8b8jRUNc3psIsV0MyaazeQN7tQlBuUy9VMyZrebi6OGA4GS0YE6J7pa8GssFBxr7u3vXY/kG3lnMLyha6C+elw==
   dependencies:
     "@emotion/core" "^10.0.20"
     "@emotion/is-prop-valid" "^0.8.6"
