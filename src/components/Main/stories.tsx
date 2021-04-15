@@ -10,7 +10,9 @@ export default {
   }
 } as Meta
 
-export const Basic: Story = (args) => <Main {...args} />
+const Template: Story = (args) => <Main {...args} />
+
+export const Basic = Template.bind({})
 
 Basic.args = {
   title: 'React Avançado'
