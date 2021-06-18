@@ -1,5 +1,4 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
-yarn lint --fix
-yarn test --findRelatedTests src/**/* --bail
+npx --no-install lint-staged
