@@ -30,7 +30,7 @@
     ]
   },
   "dependencies": {
-    "next": "12.1.2",
+    "next": "12.1.4",
     "next-pwa": "^5.4.6",
     "react": "18.0.0",
     "react-dom": "18.0.0",
