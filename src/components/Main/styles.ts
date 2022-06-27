@@ -1,11 +1,11 @@
 import styled from 'styled-components'
 
 export const Wrapper = styled.main`
-  background-color: #06092b;
-  color: #fff;
+  background: var(--color-background);
+  color: var(--color-text);
   width: 100%;
   height: 100%;
-  padding: 3rem;
+  padding: var(--30px);
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -14,20 +14,20 @@ export const Wrapper = styled.main`
 `
 
 export const Logo = styled.img`
-  width: 25rem;
-  margin-bottom: 2rem;
+  width: var(--250px);
+  margin-bottom: var(--20px);
 `
 
 export const Title = styled.h1`
-  font-size: 2.5rem;
+  font-size: var(--25px);
 `
 
 export const Description = styled.h2`
-  font-size: 2rem;
+  font-size: var(--20px);
   font-weight: 400;
 `
 
 export const Illustration = styled.img`
-  margin-top: 3rem;
-  width: min(30rem, 100%);
+  margin-top: var(--30px);
+  width: min(var(--300px), 100%);
 `
