@@ -39,6 +39,7 @@ const GlobalStyles = createGlobalStyle`
     :root {
         --color-background: #06092b;
         --color-text: #fff;
+        --primary: #e0138c;
     }
 `
 

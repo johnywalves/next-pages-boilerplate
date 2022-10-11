@@ -16,6 +16,7 @@ This project uses lot of stuff as:
 - [Prettier](https://prettier.io/)
 - [Husky](https://github.com/typicode/husky)
 - [Plop](https://github.com/plopjs/plop)
+- [NProgress](https://ricostacruz.com/nprogress/)
 
 ## Getting Started
 

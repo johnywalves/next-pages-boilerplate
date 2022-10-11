@@ -1,8 +1,19 @@
 import { AppProps } from 'next/app'
 import Head from 'next/head'
+import Router from 'next/router'
+import NProgress from 'nprogress'
 import GlobalStyles from 'styles/global'
 
 import manifest from '../../public/manifest.json'
+
+import '../styles/nprogress.css'
+
+Router.events.on('routeChangeStart', (url: string) => {
+  console.log(`Loading: ${url}`)
+  NProgress.start()
+})
+Router.events.on('routeChangeComplete', () => NProgress.done())
+Router.events.on('routeChangeError', () => NProgress.done())
 
 function App({ Component, pageProps }: AppProps) {
   return (
