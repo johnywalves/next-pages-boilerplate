@@ -10,6 +10,12 @@ const GlobalStyles = createGlobalStyle`
         box-sizing: border-box;
     }
 
+    html, 
+    body, 
+    #__next {
+        height: 100vh;
+    }
+
     html {
         --14px: 0.875rem;
         --16px: 1rem;
@@ -25,10 +31,6 @@ const GlobalStyles = createGlobalStyle`
         font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     }
 
-    html, body, #__next {
-        height: 100%;
-    }
-
     a,
     a:hover,
     a:visited {
@@ -38,8 +40,8 @@ const GlobalStyles = createGlobalStyle`
 
     :root {
         --color-background: #06092b;
-        --color-text: #fff;
-        --primary: #e0138c;
+        --color-text: #e8e8e8;
+        --color-primary: #e0138c;
     }
 `
 
