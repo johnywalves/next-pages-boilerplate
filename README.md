@@ -2,6 +2,16 @@
 
 This is a [Next.js](https://nextjs.org/) boilerplate to be used in a course called [React Avançado](https://reactavancado.com.br/).
 
+## How to use
+
+Create project with boilerplate example
+
+```bash
+npx create-next-app -e https://github.com/johnywalves/react-avancado-boilerplate
+# or
+yarn create next-app -e https://github.com/johnywalves/react-avancado-boilerplate
+```
+
 ## What is inside?
 
 This project uses lot of stuff as:
