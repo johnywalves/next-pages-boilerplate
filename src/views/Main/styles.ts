@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const Wrapper = styled.main`
+export const WrapperMain = styled.main`
   background-color: var(--color-background);
   color: var(--color-text);
   width: 100%;
@@ -13,21 +13,21 @@ export const Wrapper = styled.main`
   justify-content: center;
 `
 
-export const Logo = styled.img`
+export const LogoMain = styled.img`
   width: var(--250px);
   margin-bottom: var(--20px);
 `
 
-export const Title = styled.h1`
-  font-size: var(--25px);
+export const TitleMain = styled.h1`
+  font-size: 2rem;
 `
 
-export const Description = styled.h2`
-  font-size: var(--20px);
+export const DescriptionMain = styled.h2`
+  font-size: 1.5rem;
   font-weight: 400;
 `
 
-export const Illustration = styled.img`
+export const IllustrationMain = styled.img`
   margin-top: var(--30px);
   width: min(var(--300px), 100%);
 `
