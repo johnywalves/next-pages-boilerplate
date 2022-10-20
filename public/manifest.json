@@ -1,9 +1,9 @@
 {
-  "name": "React Avançado - Boilerplate",
-  "short_name": "React Avançado",
-  "description": "Boilerlate utilizando Typescript, React, NextJS e Styled Components!",
-  "background_color": "#06092B",
-  "theme_color": "#ed34a2",
+  "name": "Boilerplate to React, NextJS and TypeScript",
+  "short_name": "React Next - Boilerplate",
+  "description": "Boilerplate with React, NextJS, Typescript, Storybook and Styled Components to get started fast and with minimal configuration",
+  "background_color": "#0e4266",
+  "theme_color": "#e0138c",
   "display": "fullscreen",
   "start_url": "/",
   "public_url": "",
@@ -19,5 +19,5 @@
       "sizes": "512x512"
     }
   ],
-  "thumbnail": ""
+  "thumbnail": "https://raw.githubusercontent.com/johnywalves/react-next-boilerplate/main/public/img/thumbnail.png"
 }

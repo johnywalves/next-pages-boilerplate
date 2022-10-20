@@ -10,13 +10,13 @@ const GlobalStyles = createGlobalStyle`
         box-sizing: border-box;
     }
 
-    html, 
-    body, 
-    #__next {
-        height: 100vh;
-    }
-
-    html {
+    :root {
+        // Colors
+        --color-primary: #e0138c;
+        --color-text: #e8e8e8;
+        --color-background: #031726;
+        --color-code: #38383880;        
+        // Sizes
         --14px: 0.875rem;
         --16px: 1rem;
         --18px: 1.125rem;
@@ -28,6 +28,18 @@ const GlobalStyles = createGlobalStyle`
         --32px: 2rem;
         --250px: 15.625rem;
         --300px: 18.75rem;
+        --320px: 20rem;
+        --720px: 45rem;
+    }
+
+    html,
+    body,
+    #__next {
+        height: 100vh;
+    }
+
+    body {
+        overflow-y: auto;
         font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     }
 
@@ -38,10 +50,8 @@ const GlobalStyles = createGlobalStyle`
         color: inherit;
     }
 
-    :root {
-        --color-background: #06092b;
-        --color-text: #e8e8e8;
-        --color-primary: #e0138c;
+    a:hover {
+        color: var(--color-primary);
     }
 `
 

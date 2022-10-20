@@ -1,16 +1,6 @@
-![React Avançado](https://raw.githubusercontent.com/React-Avancado/boilerplate/master/public/img/logo-gh.svg)
+![Boilerplate to React, NextJS and TypeScript](https://raw.githubusercontent.com/johnywalves/react-next-boilerplate/main/public/img/logo-gh.svg)
 
-This is a [Next.js](https://nextjs.org/) boilerplate to be used in a course called [React Avançado](https://reactavancado.com.br/).
-
-## How to use
-
-Create project with boilerplate example
-
-```bash
-npx create-next-app -e https://github.com/johnywalves/react-avancado-boilerplate
-# or
-yarn create next-app -e https://github.com/johnywalves/react-avancado-boilerplate
-```
+This is a [Next.js](https://nextjs.org/) boilerplate to be create a NextJS project with React
 
 ## What is inside?
 
@@ -27,6 +17,16 @@ This project uses lot of stuff as:
 - [Husky](https://github.com/typicode/husky)
 - [Plop](https://github.com/plopjs/plop)
 - [NProgress](https://ricostacruz.com/nprogress/)
+
+## How to use
+
+Create project with boilerplate example
+
+```bash
+npx create-next-app -e https://github.com/johnywalves/react-next-boilerplate
+# or
+yarn create next-app -e https://github.com/johnywalves/react-next-boilerplate
+```
 
 ## Getting Started
 

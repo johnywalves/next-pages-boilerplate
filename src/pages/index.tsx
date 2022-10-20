@@ -1,7 +1,5 @@
-import Main from 'views/Main'
+import HomeView from 'views/HomeView'
 
-const Home = () => {
-  return <Main />
-}
+const Home = () => <HomeView />
 
 export default Home

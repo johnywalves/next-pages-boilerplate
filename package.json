@@ -1,6 +1,6 @@
 {
-  "name": "react-avancado-boilerplate",
-  "version": "1.0.0",
+  "name": "react-next-boilerplate",
+  "version": "1.5.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -16,7 +16,7 @@
     "test": "jest --maxWorkers=50%",
     "test:watch": "jest --watch --maxWorkers=25%",
     "test:ci": "jest --runInBand",
-    "generate": "yarn plop --plopfile plopfile.js"
+    "generate": "yarn plop --plopfile ./generators/plopfile.js"
   },
   "husky": {
     "hooks": {

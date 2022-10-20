@@ -24,14 +24,14 @@ function App({ Component, pageProps }: AppProps) {
         <meta httpEquiv="X-UA-Compatible" content="ie=edge" />
         <meta name="theme-color" content={manifest.theme_color} />
 
-        <title>{manifest.short_name}</title>
-        <meta name="title" content={manifest.short_name} />
+        <title>{manifest.name}</title>
+        <meta name="title" content={manifest.name} />
         <meta name="description" content={manifest.description} />
 
         <meta property="og:type" content="website" />
         <meta property="og:url" content={manifest.public_url} />
         <meta property="og:site_name" content={manifest.name} />
-        <meta property="og:title" content={manifest.short_name} />
+        <meta property="og:title" content={manifest.name} />
         <meta property="og:description" content={manifest.description} />
         <meta
           property="og:image"

@@ -1,0 +1,115 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HomeView /> should render the heading 1`] = `
+.c0 {
+  background-color: var(--color-background);
+  color: var(--color-text);
+  width: 100%;
+  min-height: 100%;
+  padding: var(--30px);
+  text-align: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  gap: var(--16px);
+}
+
+.c0 button {
+  background-color: transparent;
+  color: var(--color-text);
+  border: 1px solid var(--color-primary);
+  padding: var(--16px) var(--24px);
+  font-size: 1.25rem;
+  font-weight: 600;
+  cursor: pointer;
+  -webkit-transition: background-color 0.25s;
+  transition: background-color 0.25s;
+}
+
+.c0 button:hover {
+  background-color: var(--color-primary);
+  color: var(--color-text);
+}
+
+.c1 {
+  width: min(var(--300px),50%);
+}
+
+.c2 {
+  color: var(--color-primary);
+  font-size: 2rem;
+}
+
+.c3 {
+  font-size: 1.5rem;
+  line-height: 140%;
+  font-weight: 400;
+  width: min(var(--720px),80%);
+}
+
+.c4 {
+  margin: var(--20px) 0;
+  width: min(var(--320px),100%);
+}
+
+.c5 {
+  font-size: 1.5rem;
+}
+
+.c6 {
+  background-color: var(--color-code);
+  font-size: 1rem;
+  font-weight: 900;
+  padding: 1rem;
+  border: 1px solid var(--color-text);
+}
+
+<main
+  class="c0"
+>
+  <img
+    alt="Imagem de um átomo e React Avançado escrito ao lado."
+    class="c1"
+    src="/img/logo.svg"
+  />
+  <h1
+    class="c2"
+  >
+    Boilerplate to React, NextJS and TypeScript
+  </h1>
+  <h2
+    class="c3"
+  >
+    Boilerplate with React, NextJS, Typescript, Storybook and Styled Components to get started fast and with minimal configuration
+  </h2>
+  <img
+    alt="Uma moça de jaqueta "
+    class="c4"
+    src="/img/hero.svg"
+  />
+  <p
+    class="c5"
+  >
+    just run
+  </p>
+  <code
+    class="c6"
+  >
+    <p>
+      [npx or yarn] create next-app -e https://github.com/johnywalves/react-next-boilerplate
+    </p>
+  </code>
+</main>
+`;
