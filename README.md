@@ -1,4 +1,6 @@
-![Boilerplate to React, NextJS and TypeScript](https://raw.githubusercontent.com/johnywalves/react-next-boilerplate/main/public/img/logo-gh.svg)
+<div style="display:flex;align-items:center;justify-content:center;margin:0 0 20px;">
+    <img src="https://raw.githubusercontent.com/johnywalves/react-next-boilerplate/main/public/img/logo.svg" alt="Boilerplate to React, NextJS and TypeScript" />
+</div>
 
 This is a [Next.js](https://nextjs.org/) boilerplate to be create a NextJS project with React
 
@@ -46,12 +48,15 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
 
 - `dev`: runs your application on `localhost:3000`
 - `build`: creates the production build version
+- `export`: after build, create file to static version 
+- `deploy`: create and export the production and static version 
 - `start`: starts a simple server with the build production code
+- `storybook`: runs storybook on `localhost:6006`
+- `build-storybook`: create the build version of storybook
+- `next:lint`: runs the linter in all components and pages from NextJS
 - `lint`: runs the linter in all components and pages
 - `test`: runs jest to test all components and pages
 - `test:watch`: runs jest in watch mode
-- `storybook`: runs storybook on `localhost:6006`
-- `build-storybook`: create the build version of storybook
 - `generate`: create a component using a template
 
 ## Learn More

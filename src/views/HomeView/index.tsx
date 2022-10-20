@@ -17,11 +17,14 @@ const HomeView = ({
   <Layout>
     <LogoHomeView
       src="/img/logo.svg"
-      alt="Imagem de um átomo e React Avançado escrito ao lado."
+      alt="Image with curly brackets in magenta with the text React Next Boilerplate"
     />
     <TitleHomeView>{title}</TitleHomeView>
     <DescriptionHomeView>{description}</DescriptionHomeView>
-    <IllustrationHomeView src="/img/hero.svg" alt="Uma moça de jaqueta " />
+    <IllustrationHomeView
+      src="/img/hero.svg"
+      alt="Woman in jacket running into an atom"
+    />
     <JustHomeView>just run</JustHomeView>
     <CodeHomeView>
       <p>
