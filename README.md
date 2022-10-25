@@ -1,6 +1,6 @@
-<div style="display:flex;align-items:center;justify-content:center;margin:0 0 20px;">
-    <img src="https://raw.githubusercontent.com/johnywalves/react-next-boilerplate/main/public/img/logo.svg" alt="Boilerplate to React, NextJS and TypeScript" />
-</div>
+<picture style="display:flex;align-items:center;justify-content:center;margin:0 0 20px;">
+    <img src="https://raw.githubusercontent.com/johnywalves/react-next-boilerplate/main/public/img/logo-gh.svg" alt="Boilerplate to React, NextJS and TypeScript" />
+</picture>
 
 This is a [Next.js](https://nextjs.org/) boilerplate to be create a NextJS project with React
 
