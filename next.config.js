@@ -3,7 +3,7 @@ const withPWA = require('next-pwa')
 const isProd = process.env.NODE_ENV === 'production'
 
 const config = {
-  experimental: { appDir: true, forceSwcTransforms: true }
+  experimental: { forceSwcTransforms: true }
 }
 
 if (isProd) {

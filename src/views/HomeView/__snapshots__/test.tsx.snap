@@ -80,7 +80,7 @@ exports[`<HomeView /> should render the heading 1`] = `
   class="c0"
 >
   <img
-    alt="Imagem de um átomo e React Avançado escrito ao lado."
+    alt="Image with curly brackets in magenta with the text React Next Boilerplate"
     class="c1"
     src="/img/logo.svg"
   />
@@ -95,7 +95,7 @@ exports[`<HomeView /> should render the heading 1`] = `
     Boilerplate with React, NextJS, Typescript, Storybook and Styled Components to get started fast and with minimal configuration
   </h2>
   <img
-    alt="Uma moça de jaqueta "
+    alt="Woman in jacket running into an atom"
     class="c4"
     src="/img/hero.svg"
   />
