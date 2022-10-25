@@ -1,12 +1,6 @@
-import React, { ReactNode } from 'react'
-
 import { WrapperLayout } from './styles'
 
-type LayoutProps = {
-  children: ReactNode
-}
-
-const Layout = ({ children }: LayoutProps) => (
+const Layout = ({ children }: { children: React.ReactNode }) => (
   <WrapperLayout>{children}</WrapperLayout>
 )
 
