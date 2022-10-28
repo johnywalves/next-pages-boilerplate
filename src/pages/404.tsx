@@ -1,5 +1,3 @@
-import ErrorView from 'views/ErrorView'
+import NotFound from 'views/NotFound'
 
-const HandleError = () => <ErrorView />
-
-export default HandleError
+export default NotFound

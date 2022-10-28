@@ -1,5 +1,3 @@
-import HomeView from 'views/HomeView'
-
-const Home = () => <HomeView />
+import Home from 'views/Home'
 
 export default Home

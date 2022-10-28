@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HomeView /> should render the heading 1`] = `
+.c0 {
+  width: min(var(--300px),50%);
+}
+
+.c1 {
+  color: var(--color-primary);
+  font-size: 2rem;
+}
+
+.c2 {
+  font-size: 1.5rem;
+  line-height: 140%;
+  font-weight: 400;
+  width: min(var(--720px),80%);
+}
+
+.c3 {
+  margin: var(--20px) 0;
+  width: min(var(--320px),100%);
+}
+
+.c4 {
+  font-size: 1.5rem;
+}
+
+.c5 {
+  background-color: var(--color-code);
+  font-size: 1rem;
+  font-weight: 900;
+  padding: 1rem;
+  border: 1px solid var(--color-text);
+}
+
+<div>
+  <img
+    alt="Image with curly brackets in magenta with the text React Next Boilerplate"
+    class="c0"
+    src="/img/logo.svg"
+  />
+  <h1
+    class="c1"
+  >
+    Boilerplate to React, NextJS and TypeScript
+  </h1>
+  <h2
+    class="c2"
+  >
+    Boilerplate with React, NextJS, Typescript, Storybook and Styled Components to get started fast and with minimal configuration
+  </h2>
+  <img
+    alt="Woman in jacket running into an atom"
+    class="c3"
+    src="/img/hero.svg"
+  />
+  <p
+    class="c4"
+  >
+    just run
+  </p>
+  <code
+    class="c5"
+  >
+    <p>
+      [npx or yarn] create next-app -e https://github.com/johnywalves/react-next-boilerplate
+    </p>
+  </code>
+</div>
+`;

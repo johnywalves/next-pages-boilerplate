@@ -1,38 +1,36 @@
-import Layout from 'components/Layout'
-
 import manifest from '../../../public/manifest.json'
 import {
-  LogoHomeView,
-  TitleHomeView,
-  DescriptionHomeView,
-  IllustrationHomeView,
-  JustHomeView,
-  CodeHomeView
+  LogoHome,
+  TitleHome,
+  DescriptionHome,
+  IllustrationHome,
+  JustHome,
+  CodeHome
 } from './styles'
 
-const HomeView = ({
+const Home = ({
   title = manifest.name,
   description = manifest.description
 }) => (
-  <Layout>
-    <LogoHomeView
+  <>
+    <LogoHome
       src="/img/logo.svg"
       alt="Image with curly brackets in magenta with the text React Next Boilerplate"
     />
-    <TitleHomeView>{title}</TitleHomeView>
-    <DescriptionHomeView>{description}</DescriptionHomeView>
-    <IllustrationHomeView
+    <TitleHome>{title}</TitleHome>
+    <DescriptionHome>{description}</DescriptionHome>
+    <IllustrationHome
       src="/img/hero.svg"
       alt="Woman in jacket running into an atom"
     />
-    <JustHomeView>just run</JustHomeView>
-    <CodeHomeView>
+    <JustHome>just run</JustHome>
+    <CodeHome>
       <p>
         [npx or yarn] create next-app -e
         https://github.com/johnywalves/react-next-boilerplate
       </p>
-    </CodeHomeView>
-  </Layout>
+    </CodeHome>
+  </>
 )
 
-export default HomeView
+export default Home
