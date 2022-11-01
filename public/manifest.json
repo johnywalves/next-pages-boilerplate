@@ -6,7 +6,8 @@
   "theme_color": "#e0138c",
   "display": "fullscreen",
   "start_url": "/",
-  "public_url": "",
+  "public_url": "https://boilerplate-react-next.vercel.app/",
+  "thumbnail": "https://raw.githubusercontent.com/johnywalves/react-next-boilerplate/main/public/img/thumbnail.png",
   "icons": [
     {
       "src": "/img/icon-192.png",
@@ -18,6 +19,5 @@
       "type": "image/png",
       "sizes": "512x512"
     }
-  ],
-  "thumbnail": "https://raw.githubusercontent.com/johnywalves/react-next-boilerplate/main/public/img/thumbnail.png"
+  ]
 }
