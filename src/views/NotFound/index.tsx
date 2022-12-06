@@ -6,7 +6,7 @@ const NotFound = () => (
   <>
     <TitleError>Página não encontrada!</TitleError>
     <SubtitleError>
-      Volte para paǵina anterior ou clique no logo para ir para a página
+      Volte para página anterior ou clique no botão para ir para a página
       principal
     </SubtitleError>
     <HomeError href="/" passHref>

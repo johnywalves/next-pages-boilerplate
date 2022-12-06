@@ -4,6 +4,7 @@ export const Button = styled.button`
   background-color: transparent;
   color: var(--color-text);
   border: 1px solid var(--color-primary);
+  border-radius: var(--4px);
   padding: var(--16px) var(--24px);
   font-size: 1.25rem;
   font-weight: 600;

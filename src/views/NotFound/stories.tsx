@@ -1,12 +1,12 @@
 import { Story, Meta } from '@storybook/react/types-6-0'
 
-import ErrorView from '.'
+import Error from '.'
 
 export default {
-  title: 'ErrorView',
-  component: ErrorView
+  title: 'Error',
+  component: Error
 } as Meta
 
-const Template: Story = (args) => <ErrorView {...args} />
+const Template: Story = (args) => <Error {...args} />
 
 export const Basic = Template.bind({})

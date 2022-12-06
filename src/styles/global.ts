@@ -15,8 +15,9 @@ const GlobalStyles = createGlobalStyle`
         --color-primary: #e0138c;
         --color-text: #e8e8e8;
         --color-background: #031726;
-        --color-code: #38383880;        
+        --color-code: #38383880;
         // Sizes
+        --4px: 0.25rem;
         --14px: 0.875rem;
         --16px: 1rem;
         --18px: 1.125rem;

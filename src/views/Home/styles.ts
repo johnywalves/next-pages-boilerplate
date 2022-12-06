@@ -30,5 +30,8 @@ export const CodeHome = styled.code`
   font-size: 1rem;
   font-weight: 900;
   padding: 1rem;
+  display: flex;
+  flex-direction: row;
   border: 1px solid var(--color-text);
+  border-radius: var(--4px);
 `
