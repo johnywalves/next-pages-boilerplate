@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Button /> should render the button and content 1`] = `
+.c0 {
+  background-color: transparent;
+  color: var(--color-text);
+  border: var(--2px) solid var(--color-primary);
+  border-radius: var(--4px);
+  padding: var(--16px) var(--24px);
+  font-size: 1.25rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.c0:hover,
+.c0:focus {
+  background-color: var(--color-primary);
+  color: var(--color-background);
+}
+
+<div>
+  <button
+    class="c0"
+  >
+    <p
+      role="text"
+    >
+      Texto do botão
+    </p>
+  </button>
+</div>
+`;
