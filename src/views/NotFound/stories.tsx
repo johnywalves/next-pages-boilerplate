@@ -1,12 +1,14 @@
-import { Story, Meta } from '@storybook/react/types-6-0'
+import { Meta, StoryObj } from '@storybook/react'
 
 import Error from '.'
 
-export default {
+const meta: Meta<typeof Error> = {
   title: 'Error',
   component: Error
-} as Meta
+}
 
-const Template: Story = (args) => <Error {...args} />
+export const Primary: StoryObj<typeof Error> = {
+  args: {}
+}
 
-export const Basic = Template.bind({})
+export default meta

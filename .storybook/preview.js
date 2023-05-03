@@ -8,10 +8,10 @@ export const parameters = {
 }
 
 export const decorators = [
-    (Story) => (
-        <div id="__next">
-            <GlobalStyles />
-            <Story />
-        </div>
-    )
+  (Story) => (
+    <div id="__next">
+      <GlobalStyles />
+      <Story />
+    </div>
+  )
 ]

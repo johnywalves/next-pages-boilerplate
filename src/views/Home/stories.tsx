@@ -1,20 +1,18 @@
-import { Story, Meta } from '@storybook/react/types-6-0'
+import { Meta, StoryObj } from '@storybook/react'
 
 import Home from '.'
 import manifest from '../../../public/manifest.json'
 
-export default {
+const meta: Meta<typeof Home> = {
   title: 'Home',
   component: Home,
-  args: {
-    title: 'Default'
-  }
-} as Meta
-
-const Template: Story = (args) => <Home {...args} />
-
-export const Basic = Template.bind({})
-
-Basic.args = {
-  title: manifest.name
+  args: {}
 }
+
+export const Primary: StoryObj<typeof Home> = {
+  args: {
+    title: manifest.name
+  }
+}
+
+export default meta

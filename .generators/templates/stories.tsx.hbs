@@ -1,12 +1,15 @@
-import { Story, Meta } from '@storybook/react/types-6-0'
+import { Meta, StoryObj } from '@storybook/react'
 
 import {{pascalCase name}} from '.'
 
-export default {
+const meta: Meta<typeof {{pascalCase name}}> = {
   title: '{{pascalCase name}}',
-  component: {{pascalCase name}}
-} as Meta
+  component: {{pascalCase name}},
+  args: {}
+}
 
-const Template: Story = (args) => <{{pascalCase name}} {...args} />
+export const Primary: StoryObj<typeof {{pascalCase name}}> = {
+  args: {}
+}
 
-export const Basic = Template.bind({})
+export default meta
