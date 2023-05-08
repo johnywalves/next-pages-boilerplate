@@ -8,7 +8,9 @@ const meta: Meta<typeof {{pascalCase name}}> = {
   args: {}
 }
 
-export const Primary: StoryObj<typeof {{pascalCase name}}> = {
+type Story = StoryObj<typeof {{pascalCase name}}>
+
+export const Primary: Story = {
   args: {}
 }
 

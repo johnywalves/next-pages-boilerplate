@@ -1,23 +1,17 @@
-import { AppProps } from 'next/app'
+'use client'
+
+import { Suspense } from 'react'
+
 import Head from 'next/head'
-import Router from 'next/router'
-import NProgress from 'nprogress'
-import GlobalStyles from 'styles/global'
+
+import StyledComponentsRegistry from 'styles/styled-components/registry'
 
 import manifest from '../../public/manifest.json'
+import Loading from './loading'
 
-import '../styles/nprogress.css'
-
-Router.events.on('routeChangeStart', (url: string) => {
-  console.log(`Loading: ${url}`)
-  NProgress.start()
-})
-Router.events.on('routeChangeComplete', () => NProgress.done())
-Router.events.on('routeChangeError', () => NProgress.done())
-
-function App({ Component, pageProps }: AppProps) {
+const RootLayout = ({ children }: { children: React.ReactNode }) => {
   return (
-    <>
+    <html>
       <Head>
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -50,10 +44,13 @@ function App({ Component, pageProps }: AppProps) {
         <link rel="apple-touch-icon" href="/img/icon-512.png" />
         <link rel="manifest" href="/manifest.json" />
       </Head>
-      <GlobalStyles />
-      <Component {...pageProps} />
-    </>
+      <body>
+        <StyledComponentsRegistry>
+          <Suspense fallback={<Loading />}>{children}</Suspense>
+        </StyledComponentsRegistry>
+      </body>
+    </html>
   )
 }
 
-export default App
+export default RootLayout

@@ -1,3 +1,5 @@
+'use client'
+
 import { createGlobalStyle } from 'styled-components'
 
 const GlobalStyles = createGlobalStyle`
@@ -35,12 +37,12 @@ const GlobalStyles = createGlobalStyle`
     }
 
     html,
-    body,
-    #__next {
+    body {
         height: 100vh;
     }
 
-    #__next {
+    body, 
+    #storybook-root {
         overflow-y: auto;
         font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 

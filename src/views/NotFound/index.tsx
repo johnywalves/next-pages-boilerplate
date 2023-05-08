@@ -1,17 +1,17 @@
 import Button from 'components/Button'
 
-import { TitleError, SubtitleError, HomeError } from './styles'
+import { TitleNotFound, SubtitleNotFound, HomeNotFound } from './styles'
 
 const NotFound = () => (
   <>
-    <TitleError>Página não encontrada!</TitleError>
-    <SubtitleError>
+    <TitleNotFound>Página não encontrada!</TitleNotFound>
+    <SubtitleNotFound>
       Volte para página anterior ou clique no botão para ir para a página
       principal
-    </SubtitleError>
-    <HomeError href="/" passHref>
+    </SubtitleNotFound>
+    <HomeNotFound href="/" passHref>
       <Button>Ir para página inicial</Button>
-    </HomeError>
+    </HomeNotFound>
   </>
 )
 

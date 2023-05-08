@@ -1,13 +1,15 @@
 import { Meta, StoryObj } from '@storybook/react'
 
-import Error from '.'
+import NotFound from '.'
 
-const meta: Meta<typeof Error> = {
-  title: 'Error',
-  component: Error
+const meta: Meta<typeof NotFound> = {
+  title: 'NotFound',
+  component: NotFound
 }
 
-export const Primary: StoryObj<typeof Error> = {
+type Story = StoryObj<typeof NotFound>
+
+export const Primary: Story = {
   args: {}
 }
 

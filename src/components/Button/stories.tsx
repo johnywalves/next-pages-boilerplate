@@ -10,7 +10,9 @@ const meta: Meta<typeof Button> = {
   }
 }
 
-export const Primary: StoryObj<typeof Button> = {
+type Story = StoryObj<typeof Button>
+
+export const Primary: Story = {
   args: {}
 }
 

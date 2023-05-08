@@ -1,5 +1,5 @@
 import { RouterContext } from 'next/dist/shared/lib/router-context'
-import GlobalStyles from '../src/styles/global'
+import GlobalStyles from '../src/styles/styled-components/global'
 
 export const parameters = {
   nextRouter: {
@@ -9,9 +9,9 @@ export const parameters = {
 
 export const decorators = [
   (Story) => (
-    <div id="__next">
+    <>
       <GlobalStyles />
       <Story />
-    </div>
+    </>
   )
 ]

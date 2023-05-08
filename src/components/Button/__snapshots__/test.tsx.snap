@@ -10,7 +10,6 @@ exports[`<Button /> should render the button and content 1`] = `
   font-size: 1.25rem;
   font-weight: 600;
   cursor: pointer;
-  -webkit-transition: background-color 0.25s,color 0.5s;
   transition: background-color 0.25s,color 0.5s;
 }
 

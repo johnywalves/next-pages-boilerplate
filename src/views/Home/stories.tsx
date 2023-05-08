@@ -5,11 +5,12 @@ import manifest from '../../../public/manifest.json'
 
 const meta: Meta<typeof Home> = {
   title: 'Home',
-  component: Home,
-  args: {}
+  component: Home
 }
 
-export const Primary: StoryObj<typeof Home> = {
+type Story = StoryObj<typeof Home>
+
+export const Primary: Story = {
   args: {
     title: manifest.name
   }

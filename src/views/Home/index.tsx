@@ -1,3 +1,5 @@
+'use client'
+
 import manifest from '../../../public/manifest.json'
 import {
   LogoHome,
