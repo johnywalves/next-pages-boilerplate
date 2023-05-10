@@ -39,7 +39,7 @@
   },
   "devDependencies": {
     "@storybook/addon-essentials": "7.0.9",
-    "@storybook/nextjs": "7.0.9",
+    "@storybook/nextjs": "7.0.10",
     "@storybook/react": "7.0.9",
     "@testing-library/dom": "^9.2.0",
     "@testing-library/jest-dom": "^5.16.5",
