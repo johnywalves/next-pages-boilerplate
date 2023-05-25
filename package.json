@@ -70,7 +70,7 @@
     "prettier": "^2.8.8",
     "storybook": "^7.0.9",
     "typescript": "^5.0.4",
-    "webpack": "5.82.0"
+    "webpack": "5.84.0"
   },
   "engines": {
     "node": ">=14.16.0"
