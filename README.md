@@ -56,6 +56,23 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
 - `test:watch`: runs jest in watch mode
 - `generate`: create a component using a template
 
+## Generate Static Files
+
+The `deploy` script has been removed to perform the export configuration is required, as described in the [Next.js document](https://nextjs.org/docs/app/building-your-application/deploying/static-exports)
+
+```javascript
+/**
+ * @type {import('next').NextConfig}
+ */
+const nextConfig = {
+  output: 'export',
+  // Optional: Add a trailing slash to all paths `/about` -> `/about/`
+  // trailingSlash: true,
+  // Optional: Change the output directory `out` -> `dist`
+  // distDir: 'dist',
+}
+```
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:

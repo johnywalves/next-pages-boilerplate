@@ -9,7 +9,9 @@ export const Button = styled.button`
   font-size: 1.25rem;
   font-weight: 600;
   cursor: pointer;
-  transition: background-color 0.25s, color 0.5s;
+  transition:
+    background-color 0.25s,
+    color 0.5s;
 
   &:hover,
   &:focus {
