@@ -1,7 +1,8 @@
 import { Meta, StoryObj } from '@storybook/react'
 
-import Home from '.'
 import manifest from '../../../public/manifest.json'
+
+import Home from '.'
 
 const meta: Meta<typeof Home> = {
   title: 'Home',

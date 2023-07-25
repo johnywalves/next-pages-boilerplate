@@ -11,12 +11,26 @@ exports[`<Button /> should render the button and content 1`] = `
   font-weight: 600;
   cursor: pointer;
   transition: background-color 0.25s,color 0.5s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.c0 p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+}
+
+.c0:hover,
+.c0:focus {
+  color: var(--color-background);
 }
 
 .c0:hover,
 .c0:focus {
   background-color: var(--color-primary);
-  color: var(--color-background);
 }
 
 <div>

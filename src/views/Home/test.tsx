@@ -1,7 +1,8 @@
 import { render, screen } from '@testing-library/react'
 
-import Home from '.'
 import manifest from '../../../public/manifest.json'
+
+import Home from '.'
 
 describe('<HomeView />', () => {
   it('should render the heading', () => {
@@ -18,8 +19,8 @@ describe('<HomeView />', () => {
     const { container } = render(<Home />)
 
     expect(container.childNodes[1]).toHaveStyleRule(
-      'color',
-      'var(--color-primary)'
+      'background-color',
+      'var(--color-background-800)'
     )
   })
 })
