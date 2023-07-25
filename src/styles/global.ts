@@ -15,8 +15,11 @@ const GlobalStyles = createGlobalStyle`
     :root {
         // Colors
         --color-primary: #e0138c;
+        --color-secondary: #138ae0;
+        --color-tertiary: #8ae013;
         --color-text: #e8e8e8;
         --color-background: #031726;
+        --color-background-800: #073456;
         --color-code: #38383880;
         // Sizes
         --2px: 0.125rem;
@@ -41,7 +44,7 @@ const GlobalStyles = createGlobalStyle`
         height: 100vh;
     }
 
-    body, 
+    #__next, 
     #storybook-root {
         overflow-y: auto;
         font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
@@ -49,9 +52,7 @@ const GlobalStyles = createGlobalStyle`
         background-color: var(--color-background);
         color: var(--color-text);
         width: 100%;
-        min-height: 100%;
-        padding: var(--30px);
-        text-align: center;
+        min-height: 100vh;
 
         display: flex;
         flex-direction: column;
@@ -69,6 +70,50 @@ const GlobalStyles = createGlobalStyle`
 
     a:hover {
         color: var(--color-primary);
+    }
+
+    .innerZoomElementWrapper {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+        background-color: var(--color-background);
+        color: var(--color-text);
+        
+        padding: var(--8px);
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .skeleton {
+        background: linear-gradient(110deg, #dcdcdc 20%, #f4f4f4 60%, #dcdcdc 80%);
+        background-size: 200% 100%;
+        animation: 1.5s shine linear infinite;
+
+        color: transparent;
+        border-color: transparent;
+        pointer-events: none;
+    }
+
+    .spinner {
+        border: 0.25rem solid var(--neutral-color-grayscale-4);
+        border-left-color: var(--neutral-color-grayscale-3);
+        border-top-color: var(--neutral-color-grayscale-2);
+        border-radius: 50%;
+        min-width: 1.5rem;
+        min-height: 1.5rem;
+        animation: spin 1s linear infinite;
+    }
+
+    @keyframes shine {
+        to {
+            background-position-x: -200%;
+        }
+    }
+
+    @keyframes spin {
+        to {
+            transform: rotate(360deg);
+        }
     }
 `
 

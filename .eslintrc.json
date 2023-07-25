@@ -48,7 +48,8 @@
           "/^react/",
           "/^next/",
           ["/^@/", "module"],
-          ["parent", "sibling", "index"]
+          "parent",
+          ["sibling", "index"]
         ],
         "alphabetize": {
           "order": "asc",

@@ -1,32 +1,142 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<HomeView /> should render the heading 1`] = `
+.c10 {
+  padding: 2rem;
+}
+
+.c10 span {
+  color: red;
+}
+
+.c10 a {
+  color: var(--color-primary);
+}
+
+.c10 a:hover {
+  text-decoration: underline;
+}
+
+.c9 {
+  margin: 0!important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.c8 {
+  width: 100%;
+  padding: 4rem 2rem 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5rem;
+}
+
+.c8 h2 {
+  font-size: 2rem;
+}
+
+.c8 ul {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.c8 li {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+}
+
+.c8 li svg {
+  color: var(--color-tertiary);
+}
+
+.c8 li h3 {
+  color: var(--color-primary);
+  font-size: 1.75rem;
+}
+
+.c8 li p {
+  font-size: 1.25rem;
+  width: 20rem;
+}
+
+.c7 {
+  width: 100%;
+  padding: 4rem 2rem 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5rem;
+  background-color: var(--color-background-800);
+}
+
+.c7 h2 {
+  font-size: 2rem;
+}
+
+.c7>div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.c7>div>p {
+  width: max(80%,350px);
+  font-size: 1.5rem;
+  text-align: left;
+}
+
+.c7>div>p strong {
+  color: var(--color-secondary);
+}
+
 .c0 {
-  width: min(var(--300px),50%);
+  width: 100%;
+  min-height: 100vh;
+  padding: var(--30px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
 }
 
 .c1 {
+  width: min(var(--300px),50%);
+}
+
+.c2 {
   color: var(--color-primary);
   font-size: 2rem;
 }
 
-.c2 {
+.c3 {
   font-size: 1.5rem;
   line-height: 140%;
   font-weight: 400;
   width: min(var(--720px),80%);
 }
 
-.c3 {
+.c4 {
   margin: var(--20px) 0;
   width: min(var(--320px),100%);
 }
 
-.c4 {
+.c5 {
   font-size: 1.5rem;
 }
 
-.c5 {
+.c6 {
   background-color: var(--color-code);
   font-size: 1rem;
   font-weight: 900;
@@ -38,37 +148,160 @@ exports[`<HomeView /> should render the heading 1`] = `
 }
 
 <div>
-  <img
-    alt="Image with curly brackets in magenta with the text React Next Boilerplate"
+  <section
     class="c0"
-    src="/img/logo.svg"
-  />
-  <h1
-    class="c1"
   >
-    Boilerplate to React, NextJS and TypeScript
-  </h1>
-  <h2
-    class="c2"
+    <img
+      alt="Image with curly brackets in magenta with the text React Next Boilerplate"
+      class="c1"
+      src="/img/logo.svg"
+    />
+    <h1
+      class="c2"
+    >
+      Boilerplate to React, NextJS and TypeScript
+    </h1>
+    <h2
+      class="c3"
+    >
+      Boilerplate with React, NextJS, Typescript, Storybook and Styled Components to get started fast and with minimal configuration
+    </h2>
+    <img
+      alt="Woman in jacket running into an atom"
+      class="c4"
+      src="/img/hero.svg"
+    />
+    <p
+      class="c5"
+    >
+      just run
+    </p>
+    <code
+      class="c6"
+    >
+      <p>
+        [npx or yarn] create next-app -e https://github.com/johnywalves/react-next-boilerplate
+      </p>
+    </code>
+  </section>
+  <section
+    class="c7"
   >
-    Boilerplate with React, NextJS, Typescript, Storybook and Styled Components to get started fast and with minimal configuration
-  </h2>
-  <img
-    alt="Woman in jacket running into an atom"
-    class="c3"
-    src="/img/hero.svg"
-  />
-  <p
-    class="c4"
+    <h2>
+      Facilitando o desenvolvimento
+    </h2>
+    <div>
+      <p>
+        <strong>
+          Lorem ipsum dolor sit amet
+        </strong>
+        , consectetur adipiscing elit. Duis felis ex, luctus eget euismod a, ornare sed dui. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam vitae pulvinar lorem, at dapibus arcu.
+      </p>
+      <p>
+        <strong>
+          Donec vitae nunc est
+        </strong>
+        . Maecenas gravida nec tellus hendrerit mattis. Donec et nibh non lacus laoreet semper. Maecenas efficitur bibendum libero eget consequat. Mauris ullamcorper nisi id pretium faucibus. Suspendisse vulputate lectus elit, nec vehicula ante tempus convallis.
+      </p>
+      <p>
+        <strong>
+          Praesent tempor placerat ante
+        </strong>
+        , quis luctus dolor consectetur nec. Integer luctus fringilla imperdiet. Praesent felis mauris, tincidunt at tortor vel, commodo ullamcorper neque.
+      </p>
+    </div>
+  </section>
+  <section
+    class="c8"
   >
-    just run
-  </p>
-  <code
-    class="c5"
+    <h2>
+      Benefícios
+    </h2>
+    <ul>
+      <li>
+        <div
+          class="c9"
+        >
+          <svg
+            viewBox="0 0 512 512"
+            width="55"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M211 7.3C205 1 196-1.4 187.6 .8s-14.9 8.9-17.1 17.3L154.7 80.6l-62-17.5c-8.4-2.4-17.4 0-23.5 6.1s-8.5 15.1-6.1 23.5l17.5 62L18.1 170.6c-8.4 2.1-15 8.7-17.3 17.1S1 205 7.3 211l46.2 45L7.3 301C1 307-1.4 316 .8 324.4s8.9 14.9 17.3 17.1l62.5 15.8-17.5 62c-2.4 8.4 0 17.4 6.1 23.5s15.1 8.5 23.5 6.1l62-17.5 15.8 62.5c2.1 8.4 8.7 15 17.1 17.3s17.3-.2 23.4-6.4l45-46.2 45 46.2c6.1 6.2 15 8.7 23.4 6.4s14.9-8.9 17.1-17.3l15.8-62.5 62 17.5c8.4 2.4 17.4 0 23.5-6.1s8.5-15.1 6.1-23.5l-17.5-62 62.5-15.8c8.4-2.1 15-8.7 17.3-17.1s-.2-17.3-6.4-23.4l-46.2-45 46.2-45c6.2-6.1 8.7-15 6.4-23.4s-8.9-14.9-17.3-17.1l-62.5-15.8 17.5-62c2.4-8.4 0-17.4-6.1-23.5s-15.1-8.5-23.5-6.1l-62 17.5L341.4 18.1c-2.1-8.4-8.7-15-17.1-17.3S307 1 301 7.3L256 53.5 211 7.3z"
+              fill="currentColor"
+            />
+          </svg>
+        </div>
+        <h3>
+          Lorem ipsum dolor
+        </h3>
+        <p>
+          Duis felis ex, luctus eget euismod a, ornare sed dui
+        </p>
+      </li>
+      <li>
+        <div
+          class="c9"
+        >
+          <svg
+            viewBox="0 0 448 512"
+            width="55"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M352 224c53 0 96-43 96-96s-43-96-96-96s-96 43-96 96c0 4 .2 8 .7 11.9l-94.1 47C145.4 170.2 121.9 160 96 160c-53 0-96 43-96 96s43 96 96 96c25.9 0 49.4-10.2 66.6-26.9l94.1 47c-.5 3.9-.7 7.8-.7 11.9c0 53 43 96 96 96s96-43 96-96s-43-96-96-96c-25.9 0-49.4 10.2-66.6 26.9l-94.1-47c.5-3.9 .7-7.8 .7-11.9s-.2-8-.7-11.9l94.1-47C302.6 213.8 326.1 224 352 224z"
+              fill="currentColor"
+            />
+          </svg>
+        </div>
+        <h3>
+          Donec vitae nunc
+        </h3>
+        <p>
+          Maecenas gravida nec tellus hendrerit mattis
+        </p>
+      </li>
+      <li>
+        <div
+          class="c9"
+        >
+          <svg
+            viewBox="0 0 448 512"
+            width="55"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M96 0C43 0 0 43 0 96V416c0 53 43 96 96 96H384h32c17.7 0 32-14.3 32-32s-14.3-32-32-32V384c17.7 0 32-14.3 32-32V32c0-17.7-14.3-32-32-32H384 96zm0 384H352v64H96c-17.7 0-32-14.3-32-32s14.3-32 32-32zm32-240c0-8.8 7.2-16 16-16H336c8.8 0 16 7.2 16 16s-7.2 16-16 16H144c-8.8 0-16-7.2-16-16zm16 48H336c8.8 0 16 7.2 16 16s-7.2 16-16 16H144c-8.8 0-16-7.2-16-16s7.2-16 16-16z"
+              fill="currentColor"
+            />
+          </svg>
+        </div>
+        <h3>
+          Praesent tempor
+        </h3>
+        <p>
+          Integer luctus fringilla imperdiet, praesent felis mauris
+        </p>
+      </li>
+    </ul>
+  </section>
+  <div
+    class="c10"
   >
     <p>
-      [npx or yarn] create next-app -e https://github.com/johnywalves/react-next-boilerplate
+      Feito com 
+      <span>
+        ♥
+      </span>
+       por
+       
+      <a
+        href="https://johnywalves.com.br/"
+      >
+        Johny W. Alves
+      </a>
     </p>
-  </code>
+  </div>
 </div>
 `;
