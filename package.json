@@ -48,7 +48,7 @@
     "@testing-library/user-event": "14.4.3",
     "@types/jest": "29.5.3",
     "@types/node": "20.4.4",
-    "@types/react": "18.2.16",
+    "@types/react": "18.2.18",
     "@types/nprogress": "^0.2.0",
     "@types/styled-components": "5.1.26",
     "@typescript-eslint/eslint-plugin": "6.2.0",
