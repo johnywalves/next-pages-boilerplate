@@ -3,10 +3,11 @@
 exports[`<HomeView /> should render the heading 1`] = `
 .c10 {
   padding: 2rem;
+  color: var(--color-neutral-100);
 }
 
 .c10 span {
-  color: red;
+  color: var(--color-danger);
 }
 
 .c10 a {
@@ -65,8 +66,9 @@ exports[`<HomeView /> should render the heading 1`] = `
 }
 
 .c8 li p {
-  font-size: 1.25rem;
   width: 20rem;
+  font-size: 1.25rem;
+  text-align: center;
 }
 
 .c7 {
@@ -76,7 +78,8 @@ exports[`<HomeView /> should render the heading 1`] = `
   flex-direction: column;
   align-items: center;
   gap: 5rem;
-  background-color: var(--color-background-800);
+  background-color: var(--color-neutral-200);
+  color: var(--color-neutral-800);
 }
 
 .c7 h2 {
@@ -137,13 +140,13 @@ exports[`<HomeView /> should render the heading 1`] = `
 }
 
 .c6 {
-  background-color: var(--color-code);
+  background-color: var(--color-neutral-700);
   font-size: 1rem;
   font-weight: 900;
   padding: 1rem;
   display: flex;
   flex-direction: row;
-  border: 1px solid var(--color-text);
+  border: 1px solid var(--color-neutral-100);
   border-radius: var(--4px);
 }
 

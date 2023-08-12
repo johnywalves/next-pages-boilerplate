@@ -3,9 +3,9 @@
 exports[`<Button /> should render the button and content 1`] = `
 .c0 {
   background-color: transparent;
-  color: var(--color-text);
+  color: var(--color-neutral-100);
   border: var(--2px) solid var(--color-primary);
-  border-radius: var(--4px);
+  border-radius: var(--16px);
   padding: var(--16px) var(--24px);
   font-size: 1.25rem;
   font-weight: 600;
@@ -25,7 +25,11 @@ exports[`<Button /> should render the button and content 1`] = `
 
 .c0:hover,
 .c0:focus {
-  color: var(--color-background);
+  color: var(--color-neutral-900);
+}
+
+.c0.skeleton {
+  min-width: 8rem;
 }
 
 .c0:hover,

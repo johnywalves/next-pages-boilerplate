@@ -28,7 +28,7 @@ describe('<Button />', () => {
 
     const button = screen.getByRole('button')
 
-    expect(button).toHaveStyleRule('color', 'var(--color-text)')
+    expect(button).toHaveStyleRule('color', 'var(--color-neutral-100)')
 
     expect(button).toHaveStyleRule('background-color', 'transparent')
   })

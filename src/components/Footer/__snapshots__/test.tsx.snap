@@ -3,10 +3,11 @@
 exports[`<Footer /> should render 1`] = `
 .c0 {
   padding: 2rem;
+  color: var(--color-neutral-100);
 }
 
 .c0 span {
-  color: red;
+  color: var(--color-danger);
 }
 
 .c0 a {
