@@ -19,6 +19,18 @@ export const ListComponentsSector = styled.ul`
   grid-template-columns: repeat(4, 1fr);
   gap: var(--32px);
 
+  @media (max-width: 1200px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  @media (max-width: 980px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media (max-width: 620px) {
+    grid-template-columns: 1fr;
+  }
+
   & li {
     display: flex;
     flex-direction: column;
