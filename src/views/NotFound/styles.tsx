@@ -3,7 +3,7 @@ import Link from 'next/link'
 import styled from 'styled-components'
 
 export const TitleNotFound = styled.h1`
-  color: var(--color-primary);
+  color: var(--color-primary-pure);
 `
 
 export const SubtitleNotFound = styled.p`

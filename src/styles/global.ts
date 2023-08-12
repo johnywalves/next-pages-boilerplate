@@ -1,27 +1,34 @@
-'use client'
-
 import { createGlobalStyle } from 'styled-components'
 
 const GlobalStyles = createGlobalStyle`
     // CSS Variables 
     :root {
+        // Colors - Primary
+        --color-primary-pure: #e0138c;
+        --color-primary-half: #e0138c80;
+        // Colors - Secondary
+        --color-secondary-pure: #138ae0;
+        --color-secondary-half: #138ae080;
+        // Colors - Tertiary
+        --color-tertiary-pure: #8ae013;
+        --color-tertiary-half: #8ae01380;
         // Colors
-        --color-primary: #e0138c;
-        --color-secondary: #138ae0;
-        --color-tertiary: #8ae013;
-        // 
         --color-danger: #ff0000;
+        --color-shadow: #a4a4a480;
         // Colors - Neutral
         --color-neutral-100: #f5f5f5;
         --color-neutral-200: #e6e6e6;
         --color-neutral-300: #d4d4d4;
         --color-neutral-400: #a4a4a4;
+        --color-neutral-500: #737373;
+        --color-neutral-600: #525252;
         --color-neutral-700: #404040;
         --color-neutral-800: #272727;
         --color-neutral-900: #171717;
         // Sizes
         --2px: 0.125rem;
         --4px: 0.25rem;
+        --8px: 0.5rem;
         --14px: 0.875rem;
         --16px: 1rem;
         --18px: 1.125rem;
@@ -55,7 +62,7 @@ const GlobalStyles = createGlobalStyle`
     }
 
     a:hover {
-        color: var(--color-primary);
+        color: var(--color-primary-pure);
     }
 
     // Global Container
@@ -88,25 +95,37 @@ const GlobalStyles = createGlobalStyle`
         color: var(--color-neutral-100);
     }
 
+    // Basic Elements
+    select {
+        padding: var(--4px) var(--16px) var(--4px) var(--4px);
+        box-shadow: 0 0 4px 1px var(--color-shadow), 2px 2px 4px 1px var(--color-shadow);
+        border: none;
+        font-family: inherit;
+        font-size: inherit;
+        cursor: inherit;
+        line-height: inherit;
+    }
+
     // Classes 
     .skeleton {
         background: linear-gradient(110deg, #dcdcdc 20%, #f4f4f4 60%, #dcdcdc 80%);
         background-size: 200% 100%;
         animation: 1.5s shine linear infinite;
 
-        color: transparent;
-        border-color: transparent;
+        color: transparent !important;
+        border-color: transparent !important;
         pointer-events: none;
     }
 
     .spinner {
-        border: 0.25rem solid var(--color-neutral-100);
+        background-color: transparent;
+        border: 0.25rem solid transparent;
         border-left-color: var(--color-neutral-200);
         border-top-color: var(--color-neutral-300);
         border-radius: 50%;
 
-        min-width: 1.5rem;
-        min-height: 1.5rem;
+        width: 1.5rem;
+        height: 1.5rem;
 
         animation: spin 1s linear infinite;
     }

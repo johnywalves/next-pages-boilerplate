@@ -1,5 +1,3 @@
-'use client'
-
 import styled from 'styled-components'
 import { SectionSizeAndSpacing } from 'views/Home/styles'
 
@@ -25,12 +23,8 @@ export const BenefitsHome = styled.section`
     align-items: center;
     gap: 1rem;
 
-    & svg {
-      color: var(--color-tertiary);
-    }
-
     & h3 {
-      color: var(--color-primary);
+      color: var(--color-tertiary-pure);
       font-size: 1.75rem;
     }
 

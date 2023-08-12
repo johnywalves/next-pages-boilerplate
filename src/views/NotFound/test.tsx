@@ -18,7 +18,7 @@ describe('<NotFound />', () => {
 
     expect(container.firstChild).toHaveStyleRule(
       'color',
-      'var(--color-primary)'
+      'var(--color-primary-pure)'
     )
   })
 })

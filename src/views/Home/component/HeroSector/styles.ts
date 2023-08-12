@@ -1,5 +1,3 @@
-'use client'
-
 import styled from 'styled-components'
 
 export const HeroHome = styled.section`
@@ -19,8 +17,9 @@ export const LogoHome = styled.img`
 `
 
 export const TitleHome = styled.h1`
-  color: var(--color-primary);
+  color: var(--color-primary-pure);
   font-size: 2rem;
+  text-align: center;
 `
 
 export const DescriptionHome = styled.h2`
@@ -28,6 +27,10 @@ export const DescriptionHome = styled.h2`
   line-height: 140%;
   font-weight: 400;
   width: min(var(--720px), 80%);
+
+  @media (max-width: 980px) {
+    width: 100%;
+  }
 `
 
 export const IllustrationHome = styled.img`
@@ -40,7 +43,7 @@ export const JustHome = styled.p`
 `
 
 export const CodeHome = styled.code`
-  background-color: var(--color-neutral-700);
+  background-color: var(--color-neutral-800);
   font-size: 1rem;
   font-weight: 900;
   padding: 1rem;

@@ -9,7 +9,7 @@ export const WrapperFooter = styled.div`
   }
 
   & a {
-    color: var(--color-primary);
+    color: var(--color-primary-pure);
 
     &:hover {
       text-decoration: underline;

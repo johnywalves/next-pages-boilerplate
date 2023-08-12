@@ -20,7 +20,7 @@ describe('<HomeView />', () => {
 
     expect(container.childNodes[1]).toHaveStyleRule(
       'background-color',
-      'var(--color-neutral-200)'
+      'var(--color-neutral-100)'
     )
   })
 })

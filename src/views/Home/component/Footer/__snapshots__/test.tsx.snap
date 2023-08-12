@@ -11,7 +11,7 @@ exports[`<Footer /> should render 1`] = `
 }
 
 .c0 a {
-  color: var(--color-primary);
+  color: var(--color-primary-pure);
 }
 
 .c0 a:hover {

@@ -1,10 +1,9 @@
-'use client'
-
-import Footer from 'components/Footer'
+import Footer from 'views/Home/component/Footer'
 
 import manifest from '../../../public/manifest.json'
 
 import BenefitsSector from './component/BenefitsSector'
+import ComponentsSector from './component/ComponentsSector'
 import ExplainSector from './component/ExplainSector'
 import HeroSector from './component/HeroSector'
 
@@ -16,6 +15,7 @@ const Home = ({
     <HeroSector title={title} description={description} />
     <ExplainSector />
     <BenefitsSector />
+    <ComponentsSector />
     <Footer />
   </>
 )
