@@ -40,7 +40,7 @@ export const JustHome = styled.p`
 `
 
 export const CodeHome = styled.code`
-  background-color: var(--color-code);
+  background-color: var(--color-neutral-700);
   font-size: 1rem;
   font-weight: 900;
   padding: 1rem;
@@ -48,6 +48,6 @@ export const CodeHome = styled.code`
   display: flex;
   flex-direction: row;
 
-  border: 1px solid var(--color-text);
+  border: 1px solid var(--color-neutral-100);
   border-radius: var(--4px);
 `

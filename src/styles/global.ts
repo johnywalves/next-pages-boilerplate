@@ -3,24 +3,22 @@
 import { createGlobalStyle } from 'styled-components'
 
 const GlobalStyles = createGlobalStyle`
-    *,
-    *:before,
-    *:after {
-        margin: 0;
-        padding: 0;
-        outline: 0;
-        box-sizing: border-box;
-    }
-
+    // CSS Variables 
     :root {
         // Colors
         --color-primary: #e0138c;
         --color-secondary: #138ae0;
         --color-tertiary: #8ae013;
-        --color-text: #e8e8e8;
-        --color-background: #031726;
-        --color-background-800: #073456;
-        --color-code: #38383880;
+        // 
+        --color-danger: #ff0000;
+        // Colors - Neutral
+        --color-neutral-100: #f5f5f5;
+        --color-neutral-200: #e6e6e6;
+        --color-neutral-300: #d4d4d4;
+        --color-neutral-400: #a4a4a4;
+        --color-neutral-700: #404040;
+        --color-neutral-800: #272727;
+        --color-neutral-900: #171717;
         // Sizes
         --2px: 0.125rem;
         --4px: 0.25rem;
@@ -39,26 +37,14 @@ const GlobalStyles = createGlobalStyle`
         --720px: 45rem;
     }
 
-    html,
-    body {
-        height: 100vh;
-    }
-
-    #__next, 
-    #storybook-root {
-        overflow-y: auto;
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-
-        background-color: var(--color-background);
-        color: var(--color-text);
-        width: 100%;
-        min-height: 100vh;
-
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        gap: var(--16px);
+    // CSS Reset
+    *,
+    *:before,
+    *:after {
+        margin: 0;
+        padding: 0;
+        outline: 0;
+        box-sizing: border-box;
     }
 
     a,
@@ -72,18 +58,37 @@ const GlobalStyles = createGlobalStyle`
         color: var(--color-primary);
     }
 
-    .innerZoomElementWrapper {
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-        background-color: var(--color-background);
-        color: var(--color-text);
-        
-        padding: var(--8px);
-
-        display: flex;
-        align-items: center;
-        justify-content: center;
+    // Global Container
+    html,
+    body {
+        height: 100vh;
     }
 
+    #__next, 
+    #storybook-root {
+        overflow-y: auto;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+
+        background-color: var(--color-neutral-700);
+        color: var(--color-neutral-100);
+
+        width: 100%;
+        min-height: 100vh;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: var(--16px);
+    }
+    
+    .docs-story {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+        background-color: var(--color-neutral-700);
+        color: var(--color-neutral-100);
+    }
+
+    // Classes 
     .skeleton {
         background: linear-gradient(110deg, #dcdcdc 20%, #f4f4f4 60%, #dcdcdc 80%);
         background-size: 200% 100%;
@@ -95,12 +100,14 @@ const GlobalStyles = createGlobalStyle`
     }
 
     .spinner {
-        border: 0.25rem solid var(--neutral-color-grayscale-4);
-        border-left-color: var(--neutral-color-grayscale-3);
-        border-top-color: var(--neutral-color-grayscale-2);
+        border: 0.25rem solid var(--color-neutral-100);
+        border-left-color: var(--color-neutral-200);
+        border-top-color: var(--color-neutral-300);
         border-radius: 50%;
+
         min-width: 1.5rem;
         min-height: 1.5rem;
+
         animation: spin 1s linear infinite;
     }
 

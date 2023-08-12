@@ -36,7 +36,7 @@ export type ButtonProps = {
 
 export const Button = styled.button<ButtonProps>`
   background-color: transparent;
-  color: var(--color-text);
+  color: var(--color-neutral-100);
   border: var(--2px) solid var(--color-primary);
   border-radius: var(--16px);
   padding: var(--16px) var(--24px);
@@ -62,7 +62,7 @@ export const Button = styled.button<ButtonProps>`
 
   &:hover,
   &:focus {
-    color: var(--color-background);
+    color: var(--color-neutral-900);
   }
 
   &.skeleton {

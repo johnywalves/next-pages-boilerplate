@@ -6,7 +6,8 @@ import { SectionSizeAndSpacing } from 'views/Home/styles'
 export const ExplainHome = styled.section`
   ${SectionSizeAndSpacing}
 
-  background-color: var(--color-background-800);
+  background-color: var(--color-neutral-200);
+  color: var(--color-neutral-800);
 
   & > div {
     display: flex;
