@@ -4,7 +4,8 @@ import GlobalStyles from '../src/styles/global'
 export const parameters = {
   nextRouter: {
     Provider: RouterContext.Provider
-  }
+  },
+  layout: "centered"
 }
 
 export const decorators = [

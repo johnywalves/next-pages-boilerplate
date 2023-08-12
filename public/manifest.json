@@ -5,6 +5,7 @@
   "background_color": "#0e4266",
   "theme_color": "#e0138c",
   "display": "fullscreen",
+  "author": "Johny W. Alves",
   "start_url": "/",
   "public_url": "https://boilerplate-react-next.vercel.app/",
   "thumbnail": "https://boilerplate-react-next.vercel.app/img/thumbnail.png",

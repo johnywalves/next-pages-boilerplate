@@ -27,6 +27,7 @@ function App({ Component, pageProps }: AppProps) {
         <title>{manifest.name}</title>
         <meta name="title" content={manifest.name} />
         <meta name="description" content={manifest.description} />
+        <meta name="author" content={manifest.author} />
 
         <meta property="og:type" content="website" />
         <meta property="og:url" content={manifest.public_url} />
