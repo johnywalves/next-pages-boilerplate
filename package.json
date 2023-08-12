@@ -31,6 +31,7 @@
     ]
   },
   "dependencies": {
+    "@iconscout/react-unicons": "^2.0.2",
     "next": "13.4.12",
     "next-pwa": "5.6.0",
     "nprogress": "^0.2.0",
@@ -48,8 +49,8 @@
     "@testing-library/user-event": "14.4.3",
     "@types/jest": "29.5.3",
     "@types/node": "20.4.10",
-    "@types/react": "18.2.20",
     "@types/nprogress": "^0.2.0",
+    "@types/react": "18.2.20",
     "@types/styled-components": "5.1.26",
     "@typescript-eslint/eslint-plugin": "6.3.0",
     "@typescript-eslint/parser": "6.3.0",
