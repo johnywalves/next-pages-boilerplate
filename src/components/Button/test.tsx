@@ -30,6 +30,9 @@ describe('<Button />', () => {
 
     expect(button).toHaveStyleRule('color', 'var(--color-neutral-100)')
 
-    expect(button).toHaveStyleRule('background-color', 'transparent')
+    expect(button).toHaveStyleRule(
+      'background-color',
+      'var(--color-primary-pure)'
+    )
   })
 })

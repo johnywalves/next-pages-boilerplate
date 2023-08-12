@@ -2,9 +2,8 @@
 
 exports[`<Button /> should render the button and content 1`] = `
 .c0 {
-  background-color: transparent;
   color: var(--color-neutral-100);
-  border: var(--2px) solid var(--color-primary);
+  border: var(--2px) solid var(--color-primary-pure);
   border-radius: var(--16px);
   padding: var(--16px) var(--24px);
   font-size: 1.25rem;
@@ -14,6 +13,7 @@ exports[`<Button /> should render the button and content 1`] = `
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: var(--color-primary-pure);
 }
 
 .c0 p {
@@ -25,7 +25,8 @@ exports[`<Button /> should render the button and content 1`] = `
 
 .c0:hover,
 .c0:focus {
-  color: var(--color-neutral-900);
+  color: var(--color-neutral-200);
+  border-color: var(--color-neutral-200);
 }
 
 .c0.skeleton {
@@ -34,7 +35,7 @@ exports[`<Button /> should render the button and content 1`] = `
 
 .c0:hover,
 .c0:focus {
-  background-color: var(--color-primary);
+  background-color: var(--color-primary-half);
 }
 
 <div>

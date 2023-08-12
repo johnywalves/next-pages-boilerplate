@@ -3,41 +3,53 @@ import styled, { css } from 'styled-components'
 export { default as ButtonSkeleton } from './skeleton'
 
 const primaryButton = css`
+  background-color: var(--color-primary-pure);
+
   &:hover,
   &:focus {
-    background-color: var(--color-primary);
+    background-color: var(--color-primary-half);
   }
 `
 
 const secondaryButton = css`
-  border-color: var(--color-secondary);
+  background-color: var(--color-secondary-pure);
+  border-color: var(--color-secondary-pure);
 
   &:hover,
   &:focus {
-    background-color: var(--color-secondary);
+    background-color: var(--color-secondary-half);
   }
 `
 
 const tertiaryButton = css`
-  border-color: var(--color-tertiary);
+  background-color: var(--color-tertiary-pure);
+  border-color: var(--color-tertiary-pure);
 
   &:hover,
   &:focus {
-    background-color: var(--color-tertiary);
+    background-color: var(--color-tertiary-half);
   }
+`
+
+const loadingButton = css`
+  min-width: 8rem;
+  pointer-events: none;
 `
 
 export type ButtonProps = {
   /**
-   * Variância de design do botão
+   * Button design variance
    */
   variant?: 'primary' | 'secondary' | 'tertiary'
+  /**
+   * Button loading
+   */
+  $loading?: boolean
 }
 
 export const Button = styled.button<ButtonProps>`
-  background-color: transparent;
   color: var(--color-neutral-100);
-  border: var(--2px) solid var(--color-primary);
+  border: var(--2px) solid var(--color-primary-pure);
   border-radius: var(--16px);
   padding: var(--16px) var(--24px);
 
@@ -62,7 +74,8 @@ export const Button = styled.button<ButtonProps>`
 
   &:hover,
   &:focus {
-    color: var(--color-neutral-900);
+    color: var(--color-neutral-200);
+    border-color: var(--color-neutral-200);
   }
 
   &.skeleton {
@@ -80,6 +93,8 @@ export const Button = styled.button<ButtonProps>`
 
     return primaryButton
   }}
+
+  ${({ $loading }) => $loading && loadingButton}
 `
 
 export default Button
