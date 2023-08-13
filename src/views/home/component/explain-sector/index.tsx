@@ -1,4 +1,8 @@
-import { ExplainHome, IlustrationExplainHome, TextExplainHome } from './styles'
+import {
+  ExplainHome,
+  IlustrationExplainHome,
+  TextExplainHome
+} from './explain-sector.styles'
 
 const ExplainSector = () => (
   <ExplainHome>

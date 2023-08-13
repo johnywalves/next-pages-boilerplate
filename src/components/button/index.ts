@@ -1,6 +1,6 @@
 import styled, { css } from 'styled-components'
 
-export { default as ButtonSkeleton } from './skeleton'
+export { default as ButtonSkeleton } from './button.skeleton'
 
 const primaryButton = css`
   background-color: var(--color-primary-pure);

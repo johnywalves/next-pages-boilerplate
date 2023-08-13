@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-import Button, { ButtonSkeleton } from 'components/Button'
+import Button, { ButtonSkeleton } from 'components/button'
 
 type variantTypes = 'primary' | 'secondary' | 'tertiary' | 'skeleton'
 
@@ -20,22 +20,32 @@ const ComponentsSectorButton = () => {
           <ButtonSkeleton>Text of button</ButtonSkeleton>
         )}
       </div>
-      <label htmlFor="selectLoading">Button</label>
+      <label htmlFor="selectVariant">Button</label>
       <select
-        id="selectLoading"
+        id="selectVariant"
+        data-testid="select-variant"
         name="select"
         defaultValue={variant}
         onChange={(e) => setVariant(e.target.value as variantTypes)}
       >
-        <option value="primary">Primary</option>
-        <option value="secondary">Secondary</option>
-        <option value="tertiary">Tertiary</option>
-        <option value="skeleton">Skeleton</option>
+        <option value="primary" data-testid="option-variant">
+          Primary
+        </option>
+        <option value="secondary" data-testid="option-variant">
+          Secondary
+        </option>
+        <option value="tertiary" data-testid="option-variant">
+          Tertiary
+        </option>
+        <option value="skeleton" data-testid="option-variant">
+          Skeleton
+        </option>
       </select>
 
       <span style={{ display: 'flex', flexDirection: 'row', gap: '0.5rem' }}>
         <input
           id="buttonLoading"
+          data-testid="button-loading"
           type="checkbox"
           onChange={(e) => setLoading(e.target.checked)}
         />

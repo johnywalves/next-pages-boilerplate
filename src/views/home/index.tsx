@@ -1,11 +1,11 @@
-import Footer from 'views/Home/component/Footer'
+import Footer from 'views/home/component/footer'
 
 import manifest from '../../../public/manifest.json'
 
-import BenefitsSector from './component/BenefitsSector'
-import ComponentsSector from './component/ComponentsSector'
-import ExplainSector from './component/ExplainSector'
-import HeroSector from './component/HeroSector'
+import BenefitsSector from './component/benefits-sector'
+import ComponentsSector from './component/components-sector'
+import ExplainSector from './component/explain-sector'
+import HeroSector from './component/hero-sector'
 
 const Home = ({
   title = manifest.name,

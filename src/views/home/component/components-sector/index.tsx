@@ -1,5 +1,8 @@
-import ComponentsSectorButton from './ComponentsSectorButton'
-import { WrapperComponentsSector, ListComponentsSector } from './styles'
+import ComponentsSectorButton from './button'
+import {
+  WrapperComponentsSector,
+  ListComponentsSector
+} from './components-sector.styles'
 
 const ComponentsSector = () => (
   <WrapperComponentsSector>

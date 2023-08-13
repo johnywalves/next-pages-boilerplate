@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { SectionSizeAndSpacing } from 'views/Home/styles'
+import { SectionSizeAndSpacing } from 'views/home/home.styles'
 
 export const WrapperComponentsSector = styled.section`
   ${SectionSizeAndSpacing}

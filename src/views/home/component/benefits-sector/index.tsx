@@ -1,6 +1,6 @@
 import { UilBookAlt, UilEnvelopeAlt, UilBox } from '@iconscout/react-unicons'
 
-import { BenefitsHome } from './styles'
+import { BenefitsHome } from './benefits-sector.styles'
 
 const BenefitsSector = () => (
   <BenefitsHome>

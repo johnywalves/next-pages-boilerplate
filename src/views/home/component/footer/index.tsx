@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-import { WrapperFooter } from './styles'
+import { WrapperFooter } from './footer.styles'
 
 const Footer = () => (
   <WrapperFooter>

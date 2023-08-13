@@ -1,4 +1,4 @@
-import Button from 'components/Button'
+import Button from 'components/button'
 
 import { TitleNotFound, SubtitleNotFound, HomeNotFound } from './styles'
 

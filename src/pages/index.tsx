@@ -1,4 +1,4 @@
-import Home from 'views/Home'
+import Home from 'views/home'
 
 const HomePage = () => <Home />
 

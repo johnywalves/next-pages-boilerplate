@@ -6,7 +6,7 @@ import {
   JustHome,
   CodeHome,
   HeroHome
-} from './styles'
+} from './hero-sector.styles'
 
 const HeroSector = ({
   title,

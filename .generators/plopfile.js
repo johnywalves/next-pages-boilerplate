@@ -15,27 +15,27 @@ module.exports = function (plop) {
     actions: [
       {
         type: 'add',
-        path: '../src/components/{{pascalCase name}}/index.tsx',
+        path: '../src/components/{{dashCase name}}/index.tsx',
         templateFile: './templates/index.tsx.hbs'
       },
       {
         type: 'add',
-        path: '../src/components/{{pascalCase name}}/skeleton.tsx',
+        path: '../src/components/{{dashCase name}}/{{dashCase name}}.skeleton.tsx',
         templateFile: './templates/skeleton.tsx.hbs'
       },
       {
         type: 'add',
-        path: '../src/components/{{pascalCase name}}/stories.tsx',
+        path: '../src/components/{{dashCase name}}/{{dashCase name}}.stories.tsx',
         templateFile: './templates/stories.tsx.hbs'
       },
       {
         type: 'add',
-        path: '../src/components/{{pascalCase name}}/styles.tsx',
+        path: '../src/components/{{dashCase name}}/{{dashCase name}}.styles.tsx',
         templateFile: './templates/styles.tsx.hbs'
       },
       {
         type: 'add',
-        path: '../src/components/{{pascalCase name}}/test.tsx',
+        path: '../src/components/{{dashCase name}}/{{dashCase name}}.test.tsx',
         templateFile: './templates/test.tsx.hbs'
       }
     ]

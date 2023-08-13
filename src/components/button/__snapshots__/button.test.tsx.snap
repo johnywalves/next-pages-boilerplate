@@ -1,0 +1,197 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Button /> should render the button and content 1`] = `
+.c0 {
+  color: var(--color-neutral-100);
+  border: var(--2px) solid var(--color-primary-pure);
+  border-radius: var(--16px);
+  padding: var(--16px) var(--24px);
+  font-size: 1.25rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.25s,color 0.5s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-primary-pure);
+}
+
+.c0 p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+}
+
+.c0:hover,
+.c0:focus {
+  color: var(--color-neutral-200);
+  border-color: var(--color-neutral-200);
+}
+
+.c0.skeleton {
+  min-width: 8rem;
+}
+
+.c0:hover,
+.c0:focus {
+  background-color: var(--color-primary-half);
+}
+
+<div>
+  <button
+    class="c0"
+  >
+    <p
+      role="text"
+    >
+      Texto do botão
+    </p>
+  </button>
+</div>
+`;
+
+exports[`<Button /> should render the secondary 1`] = `
+.c0 {
+  color: var(--color-neutral-100);
+  border: var(--2px) solid var(--color-primary-pure);
+  border-radius: var(--16px);
+  padding: var(--16px) var(--24px);
+  font-size: 1.25rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.25s,color 0.5s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-secondary-pure);
+  border-color: var(--color-secondary-pure);
+}
+
+.c0 p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+}
+
+.c0:hover,
+.c0:focus {
+  color: var(--color-neutral-200);
+  border-color: var(--color-neutral-200);
+}
+
+.c0.skeleton {
+  min-width: 8rem;
+}
+
+.c0:hover,
+.c0:focus {
+  background-color: var(--color-secondary-half);
+}
+
+<div>
+  <button
+    class="c0"
+    variant="secondary"
+  >
+    text test
+  </button>
+</div>
+`;
+
+exports[`<Button /> should render the skeleton 1`] = `
+.c0 {
+  color: var(--color-neutral-100);
+  border: var(--2px) solid var(--color-primary-pure);
+  border-radius: var(--16px);
+  padding: var(--16px) var(--24px);
+  font-size: 1.25rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.25s,color 0.5s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-primary-pure);
+}
+
+.c0 p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+}
+
+.c0:hover,
+.c0:focus {
+  color: var(--color-neutral-200);
+  border-color: var(--color-neutral-200);
+}
+
+.c0.skeleton {
+  min-width: 8rem;
+}
+
+.c0:hover,
+.c0:focus {
+  background-color: var(--color-primary-half);
+}
+
+<div>
+  <button
+    class="c0 skeleton"
+  >
+     
+  </button>
+</div>
+`;
+
+exports[`<Button /> should render the tertiary 1`] = `
+.c0 {
+  color: var(--color-neutral-100);
+  border: var(--2px) solid var(--color-primary-pure);
+  border-radius: var(--16px);
+  padding: var(--16px) var(--24px);
+  font-size: 1.25rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.25s,color 0.5s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-tertiary-pure);
+  border-color: var(--color-tertiary-pure);
+}
+
+.c0 p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+}
+
+.c0:hover,
+.c0:focus {
+  color: var(--color-neutral-200);
+  border-color: var(--color-neutral-200);
+}
+
+.c0.skeleton {
+  min-width: 8rem;
+}
+
+.c0:hover,
+.c0:focus {
+  background-color: var(--color-tertiary-half);
+}
+
+<div>
+  <button
+    class="c0"
+    variant="tertiary"
+  >
+    text test
+  </button>
+</div>
+`;

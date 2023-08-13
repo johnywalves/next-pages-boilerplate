@@ -242,6 +242,24 @@ exports[`<HomeView /> should render the heading 1`] = `
   border-radius: var(--4px);
 }
 
+@media (max-width:1200px) {
+  .c12 {
+    grid-template-columns: repeat(3,1fr);
+  }
+}
+
+@media (max-width:980px) {
+  .c12 {
+    grid-template-columns: repeat(2,1fr);
+  }
+}
+
+@media (max-width:620px) {
+  .c12 {
+    grid-template-columns: 1fr;
+  }
+}
+
 @media (max-width:980px) {
   .c7>div {
     grid-template-columns: 1fr;
@@ -415,30 +433,36 @@ exports[`<HomeView /> should render the heading 1`] = `
           </button>
         </div>
         <label
-          for="selectLoading"
+          for="selectVariant"
         >
           Button
         </label>
         <select
-          id="selectLoading"
+          data-testid="select-variant"
+          id="selectVariant"
           name="select"
         >
           <option
+            data-testid="option-variant"
+            selected=""
             value="primary"
           >
             Primary
           </option>
           <option
+            data-testid="option-variant"
             value="secondary"
           >
             Secondary
           </option>
           <option
+            data-testid="option-variant"
             value="tertiary"
           >
             Tertiary
           </option>
           <option
+            data-testid="option-variant"
             value="skeleton"
           >
             Skeleton
@@ -448,6 +472,7 @@ exports[`<HomeView /> should render the heading 1`] = `
           style="display: flex; flex-direction: row; gap: 0.5rem;"
         >
           <input
+            data-testid="button-loading"
             id="buttonLoading"
             type="checkbox"
           />
