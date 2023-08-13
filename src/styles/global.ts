@@ -76,7 +76,7 @@ const GlobalStyles = createGlobalStyle`
         overflow-y: auto;
         font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 
-        background-color: var(--color-neutral-700);
+        background-color: var(--color-neutral-800);
         color: var(--color-neutral-100);
 
         width: 100%;

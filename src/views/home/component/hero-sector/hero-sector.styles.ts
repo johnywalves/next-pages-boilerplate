@@ -43,7 +43,7 @@ export const JustHome = styled.p`
 `
 
 export const CodeHome = styled.code`
-  background-color: var(--color-neutral-800);
+  background-color: var(--color-neutral-600);
   font-size: 1rem;
   font-weight: 900;
   padding: 1rem;

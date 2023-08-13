@@ -10,6 +10,7 @@ const ComponentsSectorButton = () => {
 
   return (
     <li>
+      <h3>Button</h3>
       <div>
         {variant !== 'skeleton' && (
           <Button variant={variant} $loading={loading}>
@@ -20,7 +21,7 @@ const ComponentsSectorButton = () => {
           <ButtonSkeleton>Text of button</ButtonSkeleton>
         )}
       </div>
-      <label htmlFor="selectVariant">Button</label>
+      <label htmlFor="selectVariant">Variants</label>
       <select
         id="selectVariant"
         data-testid="select-variant"
@@ -48,8 +49,16 @@ const ComponentsSectorButton = () => {
           data-testid="button-loading"
           type="checkbox"
           onChange={(e) => setLoading(e.target.checked)}
+          disabled={variant === 'skeleton'}
         />
-        <label htmlFor="buttonLoading">Loading?</label>
+        <label
+          htmlFor="buttonLoading"
+          style={
+            variant === 'skeleton' ? { color: 'var(--color-neutral-400)' } : {}
+          }
+        >
+          Loading?
+        </label>
       </span>
     </li>
   )

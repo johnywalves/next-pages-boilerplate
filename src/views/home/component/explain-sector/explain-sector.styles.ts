@@ -4,7 +4,7 @@ import { SectionSizeAndSpacing } from 'views/home/home.styles'
 export const ExplainHome = styled.section`
   ${SectionSizeAndSpacing}
 
-  background-color: var(--color-neutral-100);
+  background-color: var(--color-neutral-200);
   color: var(--color-neutral-800);
 
   & > div {
