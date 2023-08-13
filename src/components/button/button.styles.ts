@@ -1,7 +1,5 @@
 import styled, { css } from 'styled-components'
 
-export { default as ButtonSkeleton } from './button.skeleton'
-
 const primaryButton = css`
   background-color: var(--color-primary-pure);
 
@@ -32,22 +30,23 @@ const tertiaryButton = css`
 `
 
 const loadingButton = css`
-  min-width: 8rem;
+  min-width: 10rem;
+  opacity: 0.75;
   pointer-events: none;
 `
 
-export type ButtonProps = {
+type ButtonProps = React.HTMLProps<HTMLButtonElement> & {
   /**
    * Button design variance
    */
-  variant?: 'primary' | 'secondary' | 'tertiary'
+  variant: 'primary' | 'secondary' | 'tertiary'
   /**
    * Button loading
    */
-  $loading?: boolean
+  $loading: boolean
 }
 
-export const Button = styled.button<ButtonProps>`
+export const WrapperButton = styled.button<ButtonProps>`
   color: var(--color-neutral-100);
   border: var(--2px) solid var(--color-primary-pure);
   border-radius: var(--16px);
@@ -96,5 +95,3 @@ export const Button = styled.button<ButtonProps>`
 
   ${({ $loading }) => $loading && loadingButton}
 `
-
-export default Button

@@ -13,8 +13,8 @@ const ComponentsSectorButton = () => {
       <h3>Button</h3>
       <div>
         {variant !== 'skeleton' && (
-          <Button variant={variant} $loading={loading}>
-            {loading ? <div className="spinner" /> : 'Text of button'}
+          <Button variant={variant} loading={loading}>
+            Text of button
           </Button>
         )}
         {variant === 'skeleton' && (

@@ -41,6 +41,7 @@ exports[`<Button /> should render the button and content 1`] = `
 <div>
   <button
     class="c0"
+    variant="primary"
   >
     <p
       role="text"
@@ -141,6 +142,7 @@ exports[`<Button /> should render the skeleton 1`] = `
 <div>
   <button
     class="c0 skeleton"
+    variant="primary"
   >
      
   </button>

@@ -22,9 +22,22 @@ export const Primary: Story = {
   args: {}
 }
 
+export const PrimaryLoading: Story = {
+  args: {
+    loading: true
+  }
+}
+
 export const Secondary: Story = {
   args: {
     variant: 'secondary'
+  }
+}
+
+export const SecondaryLoading: Story = {
+  args: {
+    variant: 'secondary',
+    loading: true
   }
 }
 
@@ -34,8 +47,15 @@ export const Tertiary: Story = {
   }
 }
 
+export const TertiaryLoading: Story = {
+  args: {
+    variant: 'tertiary',
+    loading: true
+  }
+}
+
 export const Skeleton: Story = {
-  render: () => <ButtonSkeleton />,
+  render: () => <ButtonSkeleton>Texto do botão</ButtonSkeleton>,
   args: {}
 }
 
