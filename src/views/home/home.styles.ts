@@ -2,7 +2,7 @@ import { css } from 'styled-components'
 
 export const SectionSizeAndSpacing = css`
   width: 100%;
-  padding: 4rem 2rem 5rem;
+  padding: 4rem max(calc((100vw - 80rem) / 2), 2rem);
 
   display: flex;
   flex-direction: column;
