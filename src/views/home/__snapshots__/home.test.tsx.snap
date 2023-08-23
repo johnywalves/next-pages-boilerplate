@@ -20,7 +20,7 @@ exports[`<HomeView /> should render the heading 1`] = `
 
 .c10 {
   width: 100%;
-  padding: 4rem 2rem 5rem;
+  padding: 4rem max(calc((100vw - 80rem) / 2),2rem);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -99,7 +99,7 @@ exports[`<HomeView /> should render the heading 1`] = `
 
 .c11 {
   width: 100%;
-  padding: 4rem 2rem 5rem;
+  padding: 4rem max(calc((100vw - 80rem) / 2),2rem);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -145,7 +145,7 @@ exports[`<HomeView /> should render the heading 1`] = `
 
 .c7 {
   width: 100%;
-  padding: 4rem 2rem 5rem;
+  padding: 4rem max(calc((100vw - 80rem) / 2),2rem);
   display: flex;
   flex-direction: column;
   align-items: center;

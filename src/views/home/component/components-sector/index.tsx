@@ -1,4 +1,5 @@
 import ComponentsSectorButton from './button'
+import ComponentsSectorChartLines from './chart-lines'
 import {
   WrapperComponentsSector,
   ListComponentsSector
@@ -13,6 +14,7 @@ const ComponentsSector = () => (
     </p>
     <ListComponentsSector>
       <ComponentsSectorButton />
+      <ComponentsSectorChartLines />
     </ListComponentsSector>
   </WrapperComponentsSector>
 )
