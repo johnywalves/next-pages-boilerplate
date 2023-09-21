@@ -41,7 +41,7 @@
     "styled-components": "6.0.7"
   },
   "devDependencies": {
-    "@storybook/addon-essentials": "7.2.3",
+    "@storybook/addon-essentials": "7.4.3",
     "@storybook/nextjs": "7.2.3",
     "@storybook/react": "7.3.2",
     "@testing-library/dom": "9.3.1",
