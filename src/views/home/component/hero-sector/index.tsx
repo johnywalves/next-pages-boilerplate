@@ -29,7 +29,7 @@ const HeroSector = ({
     <JustHome>just run</JustHome>
     <CodeHome>
       <p>
-        [npx or yarn] create next-app -e
+        npx create-next-app -e
         https://github.com/johnywalves/react-next-boilerplate
       </p>
     </CodeHome>

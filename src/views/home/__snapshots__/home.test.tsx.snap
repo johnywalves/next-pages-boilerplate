@@ -293,7 +293,7 @@ exports[`<HomeView /> should render the heading 1`] = `
       class="c6"
     >
       <p>
-        [npx or yarn] create next-app -e https://github.com/johnywalves/react-next-boilerplate
+        npx create-next-app -e https://github.com/johnywalves/react-next-boilerplate
       </p>
     </code>
   </section>
