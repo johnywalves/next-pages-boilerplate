@@ -3,6 +3,7 @@
 exports[`<NotFound /> should render the heading 1`] = `
 .c0 {
   color: var(--color-primary-pure);
+  text-align: center;
 }
 
 <h1

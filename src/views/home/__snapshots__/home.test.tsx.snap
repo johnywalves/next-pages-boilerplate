@@ -1,20 +1,20 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<HomeView /> should render the heading 1`] = `
-.c14 {
+.c15 {
   padding: 2rem;
   color: var(--color-neutral-100);
 }
 
-.c14 span {
+.c15 span {
   color: var(--color-danger);
 }
 
-.c14 a {
+.c15 a {
   color: var(--color-primary-pure);
 }
 
-.c14 a:hover {
+.c15 a:hover {
   text-decoration: underline;
 }
 
@@ -95,6 +95,10 @@ exports[`<HomeView /> should render the heading 1`] = `
 .c13:hover,
 .c13:focus {
   background-color: var(--color-primary-half);
+}
+
+.c14 {
+  display: block;
 }
 
 .c11 {
@@ -414,7 +418,6 @@ exports[`<HomeView /> should render the heading 1`] = `
         <div>
           <button
             class="c13"
-            variant="primary"
           >
             Text of button
           </button>
@@ -470,10 +473,369 @@ exports[`<HomeView /> should render the heading 1`] = `
           </label>
         </span>
       </li>
+      <li>
+        <h3>
+          Line´s Chart 
+        </h3>
+        <div>
+          <div
+            class="c14"
+            id=":r0:"
+          >
+            <svg
+              height="150"
+              width="200"
+            >
+              <g
+                transform="translate(40,10)"
+              >
+                <g
+                  color="#fff"
+                  fill="none"
+                  font-family="sans-serif"
+                  font-size="0.75rem"
+                  font-weight="500"
+                  text-anchor="middle"
+                  transform="translate(0,110)"
+                >
+                  <path
+                    class="domain"
+                    d="M0.5,6V0.5H140.5V6"
+                    stroke="currentColor"
+                  />
+                  <g
+                    class="tick"
+                    opacity="1"
+                    transform="translate(0.5,0)"
+                  >
+                    <line
+                      stroke="currentColor"
+                      y2="6"
+                    />
+                    <text
+                      dy="0.71em"
+                      fill="currentColor"
+                      y="9"
+                    >
+                      1970
+                    </text>
+                  </g>
+                  <g
+                    class="tick"
+                    opacity="1"
+                    transform="translate(28.5,0)"
+                  >
+                    <line
+                      stroke="currentColor"
+                      y2="6"
+                    />
+                    <text
+                      dy="0.71em"
+                      fill="currentColor"
+                      y="9"
+                    >
+                      1980
+                    </text>
+                  </g>
+                  <g
+                    class="tick"
+                    opacity="1"
+                    transform="translate(56.5,0)"
+                  >
+                    <line
+                      stroke="currentColor"
+                      y2="6"
+                    />
+                    <text
+                      dy="0.71em"
+                      fill="currentColor"
+                      y="9"
+                    >
+                      1990
+                    </text>
+                  </g>
+                  <g
+                    class="tick"
+                    opacity="1"
+                    transform="translate(84.5,0)"
+                  >
+                    <line
+                      stroke="currentColor"
+                      y2="6"
+                    />
+                    <text
+                      dy="0.71em"
+                      fill="currentColor"
+                      y="9"
+                    >
+                      2000
+                    </text>
+                  </g>
+                  <g
+                    class="tick"
+                    opacity="1"
+                    transform="translate(112.5,0)"
+                  >
+                    <line
+                      stroke="currentColor"
+                      y2="6"
+                    />
+                    <text
+                      dy="0.71em"
+                      fill="currentColor"
+                      y="9"
+                    >
+                      2010
+                    </text>
+                  </g>
+                  <g
+                    class="tick"
+                    opacity="1"
+                    transform="translate(140.5,0)"
+                  >
+                    <line
+                      stroke="currentColor"
+                      y2="6"
+                    />
+                    <text
+                      dy="0.71em"
+                      fill="currentColor"
+                      y="9"
+                    >
+                      2020
+                    </text>
+                  </g>
+                </g>
+                <g
+                  color="#fff"
+                  fill="none"
+                  font-family="sans-serif"
+                  font-size="0.75rem"
+                  font-weight="500"
+                  text-anchor="end"
+                >
+                  <path
+                    class="domain"
+                    d="M-6,110.5H0.5V0.5H-6"
+                    stroke="currentColor"
+                  />
+                  <g
+                    class="tick"
+                    opacity="1"
+                    transform="translate(0,110.5)"
+                  >
+                    <line
+                      stroke="currentColor"
+                      x2="-6"
+                    />
+                    <text
+                      dy="0.32em"
+                      fill="currentColor"
+                      x="-9"
+                    >
+                      0.0
+                    </text>
+                  </g>
+                  <g
+                    class="tick"
+                    opacity="1"
+                    transform="translate(0,99.5)"
+                  >
+                    <line
+                      stroke="currentColor"
+                      x2="-6"
+                    />
+                    <text
+                      dy="0.32em"
+                      fill="currentColor"
+                      x="-9"
+                    >
+                      0.5
+                    </text>
+                  </g>
+                  <g
+                    class="tick"
+                    opacity="1"
+                    transform="translate(0,88.5)"
+                  >
+                    <line
+                      stroke="currentColor"
+                      x2="-6"
+                    />
+                    <text
+                      dy="0.32em"
+                      fill="currentColor"
+                      x="-9"
+                    >
+                      1.0
+                    </text>
+                  </g>
+                  <g
+                    class="tick"
+                    opacity="1"
+                    transform="translate(0,77.5)"
+                  >
+                    <line
+                      stroke="currentColor"
+                      x2="-6"
+                    />
+                    <text
+                      dy="0.32em"
+                      fill="currentColor"
+                      x="-9"
+                    >
+                      1.5
+                    </text>
+                  </g>
+                  <g
+                    class="tick"
+                    opacity="1"
+                    transform="translate(0,66.5)"
+                  >
+                    <line
+                      stroke="currentColor"
+                      x2="-6"
+                    />
+                    <text
+                      dy="0.32em"
+                      fill="currentColor"
+                      x="-9"
+                    >
+                      2.0
+                    </text>
+                  </g>
+                  <g
+                    class="tick"
+                    opacity="1"
+                    transform="translate(0,55.5)"
+                  >
+                    <line
+                      stroke="currentColor"
+                      x2="-6"
+                    />
+                    <text
+                      dy="0.32em"
+                      fill="currentColor"
+                      x="-9"
+                    >
+                      2.5
+                    </text>
+                  </g>
+                  <g
+                    class="tick"
+                    opacity="1"
+                    transform="translate(0,44.5)"
+                  >
+                    <line
+                      stroke="currentColor"
+                      x2="-6"
+                    />
+                    <text
+                      dy="0.32em"
+                      fill="currentColor"
+                      x="-9"
+                    >
+                      3.0
+                    </text>
+                  </g>
+                  <g
+                    class="tick"
+                    opacity="1"
+                    transform="translate(0,33.50000000000001)"
+                  >
+                    <line
+                      stroke="currentColor"
+                      x2="-6"
+                    />
+                    <text
+                      dy="0.32em"
+                      fill="currentColor"
+                      x="-9"
+                    >
+                      3.5
+                    </text>
+                  </g>
+                  <g
+                    class="tick"
+                    opacity="1"
+                    transform="translate(0,22.499999999999996)"
+                  >
+                    <line
+                      stroke="currentColor"
+                      x2="-6"
+                    />
+                    <text
+                      dy="0.32em"
+                      fill="currentColor"
+                      x="-9"
+                    >
+                      4.0
+                    </text>
+                  </g>
+                  <g
+                    class="tick"
+                    opacity="1"
+                    transform="translate(0,11.499999999999998)"
+                  >
+                    <line
+                      stroke="currentColor"
+                      x2="-6"
+                    />
+                    <text
+                      dy="0.32em"
+                      fill="currentColor"
+                      x="-9"
+                    >
+                      4.5
+                    </text>
+                  </g>
+                  <g
+                    class="tick"
+                    opacity="1"
+                    transform="translate(0,0.5)"
+                  >
+                    <line
+                      stroke="currentColor"
+                      x2="-6"
+                    />
+                    <text
+                      dy="0.32em"
+                      fill="currentColor"
+                      x="-9"
+                    >
+                      5.0
+                    </text>
+                  </g>
+                </g>
+                <path
+                  d="M140,80.065L112,86.785L84,91.983L56,95.961L28,99.406L0,101.96"
+                  style="stroke: #e41a1c; stroke-width: 5; fill: none;"
+                />
+                <path
+                  d="M140,87.433L112,89.412L84,91.615L56,94.195L28,96.578L0,98.816"
+                  style="stroke: #377eb8; stroke-width: 5; fill: none;"
+                />
+                <path
+                  d="M140,7.412L112,17.159L84,27.828L56,39.368L28,52.023L0,62.812"
+                  style="stroke: #4daf4a; stroke-width: 5; fill: none;"
+                />
+                <path
+                  d="M140,93.593L112,93.816L84,94.026L56,94.153L28,94.764L0,95.57"
+                  style="stroke: #984ea3; stroke-width: 5; fill: none;"
+                />
+                <path
+                  d="M140,109.033L112,109.184L84,109.313L56,109.412L28,109.496L0,109.571"
+                  style="stroke: #ff7f00; stroke-width: 5; fill: none;"
+                />
+              </g>
+            </svg>
+          </div>
+        </div>
+      </li>
     </ul>
   </section>
   <div
-    class="c14"
+    class="c15"
   >
     <p>
       Feito com 

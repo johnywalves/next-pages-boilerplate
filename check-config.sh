@@ -7,9 +7,9 @@ rm -rf storybook-static
 
 npm i
 
-yarn format
-yarn next:lint
-yarn lint --fix
-yarn test --bail
-yarn build
-yarn build-storybook
+npm run format
+npm run next:lint
+npm run lint:fix
+npm run test:bail
+npm run build
+npm run build-storybook

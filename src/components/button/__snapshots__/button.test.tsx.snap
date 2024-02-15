@@ -41,7 +41,6 @@ exports[`<Button /> should render the button and content 1`] = `
 <div>
   <button
     class="c0"
-    variant="primary"
   >
     <p
       role="text"
@@ -94,7 +93,6 @@ exports[`<Button /> should render the secondary 1`] = `
 <div>
   <button
     class="c0"
-    variant="secondary"
   >
     text test
   </button>
@@ -142,7 +140,6 @@ exports[`<Button /> should render the skeleton 1`] = `
 <div>
   <button
     class="c0 skeleton"
-    variant="primary"
   >
      
   </button>
@@ -162,6 +159,7 @@ exports[`<Button /> should render the tertiary 1`] = `
   display: flex;
   justify-content: center;
   align-items: center;
+  color: var(--color-neutral-900);
   background-color: var(--color-tertiary-pure);
   border-color: var(--color-tertiary-pure);
 }
@@ -191,7 +189,6 @@ exports[`<Button /> should render the tertiary 1`] = `
 <div>
   <button
     class="c0"
-    variant="tertiary"
   >
     text test
   </button>

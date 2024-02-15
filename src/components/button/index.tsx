@@ -20,7 +20,7 @@ export type ButtonProps = React.HTMLProps<HTMLButtonElement> & {
 }
 
 const Button = ({ variant, loading, children, ...rest }: ButtonProps) => (
-  <WrapperButton variant={variant || 'primary'} $loading={!!loading} {...rest}>
+  <WrapperButton $variant={variant ?? 'primary'} $loading={!!loading} {...rest}>
     {loading ? <div className="spinner" /> : <>{children}</>}
   </WrapperButton>
 )

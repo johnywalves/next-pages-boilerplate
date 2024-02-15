@@ -20,6 +20,7 @@ const secondaryButton = css`
 `
 
 const tertiaryButton = css`
+  color: var(--color-neutral-900);
   background-color: var(--color-tertiary-pure);
   border-color: var(--color-tertiary-pure);
 
@@ -39,7 +40,7 @@ type ButtonProps = React.HTMLProps<HTMLButtonElement> & {
   /**
    * Button design variance
    */
-  variant: 'primary' | 'secondary' | 'tertiary'
+  $variant: 'primary' | 'secondary' | 'tertiary'
   /**
    * Button loading
    */
@@ -81,12 +82,12 @@ export const WrapperButton = styled.button<ButtonProps>`
     min-width: 8rem;
   }
 
-  ${({ variant }) => {
-    if (variant === 'secondary') {
+  ${({ $variant }) => {
+    if ($variant === 'secondary') {
       return secondaryButton
     }
 
-    if (variant === 'tertiary') {
+    if ($variant === 'tertiary') {
       return tertiaryButton
     }
 
