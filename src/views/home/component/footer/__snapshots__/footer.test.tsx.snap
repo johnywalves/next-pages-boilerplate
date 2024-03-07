@@ -22,7 +22,7 @@ exports[`<Footer /> should render 1`] = `
   class="c0"
 >
   <p>
-    Feito com 
+    Made with 
     <span>
       ♥
     </span>

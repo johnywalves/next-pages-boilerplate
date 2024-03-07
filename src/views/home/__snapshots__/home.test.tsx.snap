@@ -838,7 +838,7 @@ exports[`<HomeView /> should render the heading 1`] = `
     class="c15"
   >
     <p>
-      Feito com 
+      Made with 
       <span>
         ♥
       </span>
