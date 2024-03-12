@@ -1,5 +1,5 @@
 <picture style="display:flex;align-items:center;justify-content:center;margin:0 0 20px;">
-    <img src="https://raw.githubusercontent.com/johnywalves/react-next-boilerplate/main/public/img/logo-gh.svg" alt="Boilerplate to React, NextJS and TypeScript" />
+    <img src="https://raw.githubusercontent.com/johnywalves/next-pages-boilerplate/main/public/img/logo-gh.svg" alt="Boilerplate to React, NextJS and TypeScript" />
 </picture>
 
 This is a [Next.js](https://nextjs.org/) boilerplate to be create a NextJS project with React
@@ -24,9 +24,9 @@ This project uses lot of stuff as:
 Create project with boilerplate example
 
 ```bash
-npx create-next-app -e https://github.com/johnywalves/react-next-boilerplate
+npx create-next-app -e https://github.com/johnywalves/next-pages-boilerplate
 # or
-yarn create next-app -e https://github.com/johnywalves/react-next-boilerplate
+yarn create next-app -e https://github.com/johnywalves/next-pages-boilerplate
 ```
 
 ## Getting Started

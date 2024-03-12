@@ -30,7 +30,7 @@ const HeroSector = ({
     <CodeHome>
       <p>
         npx create-next-app -e
-        https://github.com/johnywalves/react-next-boilerplate
+        https://github.com/johnywalves/next-pages-boilerplate
       </p>
     </CodeHome>
   </HeroHome>
